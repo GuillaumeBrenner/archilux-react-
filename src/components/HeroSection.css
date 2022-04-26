@@ -5,6 +5,11 @@ video {
   position: fixed;
   z-index: -1;
 }
+span {
+  color: crimson;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .hero-container {
   background: url('/images/img-home.jpg') center center/cover no-repeat;

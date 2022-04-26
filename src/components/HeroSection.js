@@ -8,9 +8,9 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <h1>Welcome,</h1>
-      <p>We build Luxury.</p>
-      <div className="hero-btns">
+      <h1 data-aos="fade-right">Welcome,</h1>
+      <p data-aos="fade-left">We build <span>Lux</span>URY.</p>
+      <div className="hero-btns" data-aos="fade-up">
         <Link to="/about">
           <Button
             className="btns"
