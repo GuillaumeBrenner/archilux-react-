@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="footer-container">
-        <section className="footer-subscription">
+        <section className="footer-subscription" data-aos="fade-down">
           <p className="footer-subscription-heading">
             Subscribe to our newsletter to receive the latest projects.
           </p>

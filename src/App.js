@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./components/pages/Services";
@@ -9,6 +11,9 @@ import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ offset: 100, duration: 2000, easing: "ease" });
+  }, []);
   return (
     <>
       <Router>
