@@ -10,10 +10,8 @@ export default function Contact() {
         <div className="contact-container">
           <div className="form-wrapper">
             <div className="contact-info">
-              <h3 className="title">Let's get in touch</h3>
-              <p className="text">
-                Veuillez nous joindre sur l'addresse ci-dessous :
-              </p>
+              <h3 className="title">Let's Connect</h3>
+              <p className="text">Please contact us on the address below :</p>
 
               <div className="info">
                 <div className="information">
@@ -31,7 +29,7 @@ export default function Contact() {
               </div>
 
               <div className="social-media">
-                <p>Nous Suivre sur les réseaux :</p>
+                <p>Follow us on the networks :</p>
                 <div className="social-icons">
                   <i className="fab fa-facebook-f"></i>
 
@@ -45,26 +43,26 @@ export default function Contact() {
             </div>
 
             <div className="contact-form">
-              <form autocomplete="off">
+              <form autoComplete="off">
                 <h3 className="title">Contact Us</h3>
                 <div className="input-container">
                   <input type="text" name="name" className="input" />
-                  <label for="">Name</label>
+                  <label>Name</label>
                   <span>Username</span>
                 </div>
                 <div className="input-container">
                   <input type="email" name="email" className="input" />
-                  <label for="">Email</label>
+                  <label>Email</label>
                   <span>Email</span>
                 </div>
                 <div className="input-container">
                   <input type="tel" name="phone" className="input" />
-                  <label for="">Phone</label>
+                  <label>Phone</label>
                   <span>Phone</span>
                 </div>
                 <div className="input-container textarea">
                   <textarea name="message" className="input"></textarea>
-                  <label for="">Message</label>
+                  <label>Message</label>
                   <span>Message</span>
                 </div>
                 <input type="submit" value="Send" className="btn-contact" />

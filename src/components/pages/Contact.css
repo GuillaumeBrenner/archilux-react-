@@ -6,10 +6,9 @@
 
 .contact-container {
   position: relative;
-  min-height: 100vh;
   padding: 3rem;
   overflow: hidden;
-  margin-top: 100px;
+  margin: 50px;
 }
 
 .form-wrapper {
@@ -25,7 +24,7 @@
 }
 
 .contact-form {
-  background-color: #1abc9c;
+  background-color: #15595a;
   position: relative;
 }
 
@@ -34,7 +33,7 @@
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  background-color: #15595a;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -70,14 +69,14 @@ form {
   font-weight: 500;
   font-size: 3.5rem;
   letter-spacing: 0.5px;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: 0.3s;
 }
 
 textarea.input {
   padding: 0.8rem 1.2rem;
   min-height: 150px;
-  border-radius: 22px;
+  border-radius: 10px;
   resize: none;
   overflow-y: auto;
 }
@@ -107,9 +106,9 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #15595a;
   line-height: 1;
-  border-radius: 25px;
+  border-radius: 10px;
   outline: none;
   cursor: pointer;
   transition: 0.3s;
@@ -141,7 +140,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1abc9c;
+  background-color: #15595a;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -211,7 +210,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1abc9c, #149279);
+  background: #15595a;
   color: #fff;
   text-align: center;
   line-height: 35px;
