@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 function Footer() {
   return (
@@ -22,7 +23,7 @@ function Footer() {
                 type="email"
                 placeholder="Your Email"
               />
-              <Button >Subscribe Now</Button>
+              <Button>Subscribe Now</Button>
             </form>
           </div>
         </section>
@@ -85,6 +86,8 @@ function Footer() {
           </div>
         </div>
       </div>
+
+      <ScrollToTop smooth color="red" top="500" />
     </>
   );
 }
