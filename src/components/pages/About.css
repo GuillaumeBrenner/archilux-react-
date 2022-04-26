@@ -1,14 +1,15 @@
-.section-title {
-  font-size: 3rem;
-  margin-top: 50px;
-}
-
 .about-container {
   display: flex;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
 .col-left {
   width: 600px;
@@ -63,3 +64,28 @@
 .col-right h1 {
   text-align: left;
 }
+
+/* @media only screen and (min-width: 408) {
+  .about-container {
+    flex-direction: column;
+  }
+  .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+  .col-left .about-img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid crimson;
+  }
+  .col-right {
+    text-align: left;
+    padding: 30px;
+  }
+  .col-right h1 {
+    text-align: left;
+  }
+} */

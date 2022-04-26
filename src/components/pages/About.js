@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <section>
-        <h1 className="section-title">HISTOIRE</h1>
+        <h1 className="section-title">HISTORY</h1>
         <div className="about-container">
           <div className="col-left">
             <div className="about-img">
@@ -31,7 +31,7 @@ export default function About() {
         </div>
       </section>
       <section>
-        <h1 className="section-title">EQUIPES</h1>
+        <h1 className="section-title">TEAM</h1>
         <div className="about-container">
           <div className="col-left">
             <div className="about-img">

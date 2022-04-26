@@ -11,7 +11,7 @@ export default function Contact() {
           <div className="form-wrapper">
             <div className="contact-info">
               <h3 className="title">Let's Connect</h3>
-              <p className="text">Please contact us on the address below :</p>
+              <p className="text">Contact us on the address below :</p>
 
               <div className="info">
                 <div className="information">
