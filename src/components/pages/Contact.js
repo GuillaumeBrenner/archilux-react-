@@ -9,7 +9,7 @@ export default function Contact() {
       <section className="contact-section">
         <div className="contact-container">
           <div className="form-wrapper">
-            <div className="contact-info">
+            <div className="contact-info" data-aos="fade-down">
               <h3 className="title">Let's Connect</h3>
               <p className="text">Contact us on the address below :</p>
 
@@ -42,12 +42,12 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="contact-form">
+            <div className="contact-form" data-aos="fade-up">
               <form autoComplete="off">
                 <h3 className="title">Contact Us</h3>
                 <div className="input-container">
                   <input type="text" name="name" className="input" />
-                  <label>Name</label>
+                  <label>Name/Lastname</label>
                   <span>Username</span>
                 </div>
                 <div className="input-container">

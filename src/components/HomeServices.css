@@ -1,0 +1,31 @@
+.home-services {
+  padding: 5rem;
+  color: #fff;
+}
+
+.experience-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.experience-grid {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10rem;
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.experience-details h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  letter-spacing: 10px;
+}
+.experience-details span {
+  color: #fff;
+}

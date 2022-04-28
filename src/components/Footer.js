@@ -87,7 +87,7 @@ function Footer() {
         </div>
       </div>
 
-      <ScrollToTop smooth color="red" top="500" />
+      <ScrollToTop smooth color="red" top="500" data-aos="fade-left" />
     </>
   );
 }

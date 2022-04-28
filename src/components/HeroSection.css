@@ -12,7 +12,7 @@ span {
 }
 
 .hero-container {
-  background: url('/images/img-home.jpg') center center/cover no-repeat;
+  background: url('/images/interior.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -27,21 +27,23 @@ span {
   color: #fff;
   font-size: 100px;
   margin-top: -300px;
-  margin-left: 50px;
+  margin-left: 100px;
+  letter-spacing: 15px;
 }
 
 .hero-container > p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  margin-left: 70px;
+  letter-spacing: 5px;
+  margin-left: 100px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-btns {
-  margin-top: 32px;
-  margin-left: 50px;
+  margin-top: 35px;
+  margin-left: 100px;
 }
 
 .hero-btns .btn {

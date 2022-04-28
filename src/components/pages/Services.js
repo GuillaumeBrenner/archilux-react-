@@ -10,15 +10,18 @@ export default function Services() {
         <div className="services-container">
           <div className="services-wrapper">
             <div className="services-top">
-              <h1 className="section-title">LOOK OUR BEST SERVICES</h1>
-              <p>
+              <h1 className="section-title" data-aos="fade-down">
+                LOOK OUR BEST SERVICES
+              </h1>
+              <div className="separator"></div>
+              <p data-aos="zoom-in">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
                 deleniti maiores pariatur assumenda quas magni et, doloribus
                 quod voluptate quasi molestiae magnam officiis dolorum, dolor
                 provident atque molestias voluptatum explicabo!
               </p>
             </div>
-            <div className="panel">
+            <div className="panel" data-aos="fade-right">
               <br />
               <br />
               <i className="fa fa-cog fa-4x"></i>
@@ -51,7 +54,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="panel animated">
+            <div className="panel" data-aos="fade-up">
               <br />
               <br />
 
@@ -85,7 +88,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="panel animated">
+            <div className="panel" data-aos="fade-up">
               <br />
               <br />
               <i className="fa fa-cog fa-4x"></i>
@@ -118,7 +121,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="panel animated">
+            <div className="panel" data-aos="fade-left">
               <br />
               <br />
               <i className="fa fa-cog fa-4x"></i>

@@ -9,6 +9,10 @@
   top: 0;
   z-index: 999;
 }
+.navbar.active {
+  background: linear-gradient(90deg, rgb(66, 29, 139) 0%, rgb(0, 75, 97) 100%);
+  transition: 5.3s ease;
+}
 
 .navbar-container {
   display: flex;

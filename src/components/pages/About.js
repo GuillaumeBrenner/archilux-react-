@@ -7,14 +7,17 @@ export default function About() {
   return (
     <>
       <section>
-        <h1 className="section-title">HISTORY</h1>
+        <h1 className="section-title" data-aos="fade-down">
+          HISTORY
+        </h1>
+        <div className="separator"></div>
         <div className="about-container">
-          <div className="col-left">
+          <div className="col-left" data-aos="fade-right">
             <div className="about-img">
               {/* <img src="./img/img-2.png" alt="img" /> */}
             </div>
           </div>
-          <div className="col-right">
+          <div className="col-right" data-aos="fade-left">
             {/* <h1 className="about-title">HISTOIRE</h1> */}
             <h2>Front End Developer</h2>
             <p>
@@ -31,15 +34,18 @@ export default function About() {
         </div>
       </section>
       <section>
-        <h1 className="section-title">TEAM</h1>
+        <h1 className="section-title" data-aos="fade-up">
+          TEAM
+        </h1>
+        <div className="separator"></div>
         <div className="about-container">
-          <div className="col-left">
+          <div className="col-left" data-aos="fade-right">
             <div className="about-img">
               {/* <img src="./img/img-2.png" alt="img" /> */}
             </div>
           </div>
-          <div className="col-right">
-            <h1 className="about-title">HOUNKPATI</h1>
+          <div className="col-right" data-aos="fade-left">
+            <h2 className="about-title">HOUNKPATI</h2>
             <h2>Front End Developer</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -55,13 +61,13 @@ export default function About() {
         </div>
 
         <div className="about-container">
-          <div className="col-left">
+          <div className="col-left" data-aos="fade-right">
             <div className="about-img">
               {/* <img src="./img/img-2.png" alt="img" /> */}
             </div>
           </div>
-          <div className="col-right">
-            <h1 className="about-title">MENSANH</h1>
+          <div className="col-right" data-aos="fade-left">
+            <h2 className="about-title">MENSANH</h2>
             <h2>Front End Developer</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
