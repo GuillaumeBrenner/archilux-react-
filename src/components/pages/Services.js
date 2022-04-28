@@ -25,8 +25,9 @@ export default function Services() {
               <div className="panel" data-aos="fade-right">
                 <br />
                 <br />
-                <i className="fa fa-cog fa-4x"></i>
-                <h3>TITRE</h3>
+                {/* <i className="fa fa-cog fa-4x"></i> */}
+                <img src="images/compass.png"/>
+                <h3>INTERIOR PLANING</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -59,8 +60,9 @@ export default function Services() {
                 <br />
                 <br />
 
-                <i className="fa fa-cog fa-4x"></i>
-                <h3>TITRE</h3>
+                {/* <i className="fa fa-cog fa-4x"></i> */}
+                <img src="images/construction.png"/>
+                <h3>EXTERIOR DESIGN</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -92,8 +94,9 @@ export default function Services() {
               <div className="panel" data-aos="fade-up">
                 <br />
                 <br />
-                <i className="fa fa-cog fa-4x"></i>
-                <h3>TITRE</h3>
+                {/* <i className="fa fa-building fa-4x"></i> */}
+                <img src="images/sketch (1).png"/>
+                <h3>ARCHITECTURE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -125,8 +128,9 @@ export default function Services() {
               <div className="panel" data-aos="fade-left">
                 <br />
                 <br />
-                <i className="fa fa-cog fa-4x"></i>
-                <h3>TITRE</h3>
+                {/* <i className="fa fa-desktop fa-4x"></i> */}
+                <img src="images/style-selection.png"/>
+                <h3>STYLE SELECTION</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
