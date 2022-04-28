@@ -120,18 +120,38 @@
   }
 
   .menu-icon {
-    display: block;
     position: absolute;
-    top: 0;
+    top: 5;
     right: 0;
-    transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transform: scale(0.8);
+    margin-right: 20px;
   }
-
+  .menu-icon::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    animation: 1s ease infinite;
+  }
   .fa-times {
-    color: #fff;
-    font-size: 2rem;
+    height: 2px;
+    width: 30px;
+    position: relative;
+    background-color: white;
+    z-index: -1;
   }
 
   .nav-links-mobile {

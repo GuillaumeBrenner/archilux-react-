@@ -5,25 +5,11 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.projects {
+/* .projects {
   background-image: url("/images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
-@media all and (max-width: 800px) {
-  .experience-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .about-text {
-    padding: 15px;
-    text-align: center;
-  }
-}
+} */

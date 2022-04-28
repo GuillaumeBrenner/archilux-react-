@@ -76,3 +76,10 @@ span {
     width: 100%;
   }
 }
+
+@media all and (max-width: 800px) {
+  .hero-btns {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+}

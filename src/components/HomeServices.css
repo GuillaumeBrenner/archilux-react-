@@ -34,3 +34,13 @@
 .experience-details span {
   color: #fff;
 }
+
+@media all and (max-width: 800px) {
+  .experience-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
