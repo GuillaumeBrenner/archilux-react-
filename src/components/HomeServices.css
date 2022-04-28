@@ -33,6 +33,9 @@
 }
 .experience-details span {
   color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media all and (max-width: 800px) {
@@ -42,5 +45,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: -10px;
   }
 }

@@ -146,7 +146,7 @@
     border: 3px solid white;
     animation: 1s ease infinite;
   }
-  .fa-times {
+  .close-menu {
     height: 2px;
     width: 30px;
     position: relative;

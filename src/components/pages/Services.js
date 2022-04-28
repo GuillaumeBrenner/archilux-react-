@@ -21,136 +21,138 @@ export default function Services() {
                 provident atque molestias voluptatum explicabo!
               </p>
             </div>
-            <div className="panel" data-aos="fade-right">
-              <br />
-              <br />
-              <i className="fa fa-cog fa-4x"></i>
-              <h3>TITRE</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                reprehenderit assumenda alias ipsum inventore numquam placeat
-                illo corrupti facilis doloribus explicabo obcaecati, iste amet,
-                quis beatae ullam qui distinctio ipsa.
-              </p>
-              <div className="slide">
-                <h4>SERVICES</h4>
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                </ul>
+            <div className="panel-cards">
+              <div className="panel" data-aos="fade-right">
+                <br />
+                <br />
+                <i className="fa fa-cog fa-4x"></i>
+                <h3>TITRE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit reprehenderit assumenda alias ipsum inventore numquam
+                  placeat illo corrupti facilis doloribus explicabo obcaecati,
+                  iste amet, quis beatae ullam qui distinctio ipsa.
+                </p>
+                <div className="slide">
+                  <h4>SERVICES</h4>
+                  <ul>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            <div className="panel" data-aos="fade-up">
-              <br />
-              <br />
+              <div className="panel" data-aos="fade-up">
+                <br />
+                <br />
 
-              <i className="fa fa-cog fa-4x"></i>
-              <h3>TITRE</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                reprehenderit assumenda alias ipsum inventore numquam placeat
-                illo corrupti facilis doloribus explicabo obcaecati, iste amet,
-                quis beatae ullam qui distinctio ipsa.
-              </p>
-              <div className="slide">
-                <h4>SERVICES</h4>
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                </ul>
+                <i className="fa fa-cog fa-4x"></i>
+                <h3>TITRE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit reprehenderit assumenda alias ipsum inventore numquam
+                  placeat illo corrupti facilis doloribus explicabo obcaecati,
+                  iste amet, quis beatae ullam qui distinctio ipsa.
+                </p>
+                <div className="slide">
+                  <h4>SERVICES</h4>
+                  <ul>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            <div className="panel" data-aos="fade-up">
-              <br />
-              <br />
-              <i className="fa fa-cog fa-4x"></i>
-              <h3>TITRE</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                reprehenderit assumenda alias ipsum inventore numquam placeat
-                illo corrupti facilis doloribus explicabo obcaecati, iste amet,
-                quis beatae ullam qui distinctio ipsa.
-              </p>
-              <div className="slide">
-                <h4>SERVICES</h4>
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                </ul>
+              <div className="panel" data-aos="fade-up">
+                <br />
+                <br />
+                <i className="fa fa-cog fa-4x"></i>
+                <h3>TITRE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit reprehenderit assumenda alias ipsum inventore numquam
+                  placeat illo corrupti facilis doloribus explicabo obcaecati,
+                  iste amet, quis beatae ullam qui distinctio ipsa.
+                </p>
+                <div className="slide">
+                  <h4>SERVICES</h4>
+                  <ul>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
 
-            <div className="panel" data-aos="fade-left">
-              <br />
-              <br />
-              <i className="fa fa-cog fa-4x"></i>
-              <h3>TITRE</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                reprehenderit assumenda alias ipsum inventore numquam placeat
-                illo corrupti facilis doloribus explicabo obcaecati, iste amet,
-                quis beatae ullam qui distinctio ipsa.
-              </p>
-              <div className="slide">
-                <h4>SERVICES</h4>
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>project
-                  </li>
-                </ul>
+              <div className="panel" data-aos="fade-left">
+                <br />
+                <br />
+                <i className="fa fa-cog fa-4x"></i>
+                <h3>TITRE</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Impedit reprehenderit assumenda alias ipsum inventore numquam
+                  placeat illo corrupti facilis doloribus explicabo obcaecati,
+                  iste amet, quis beatae ullam qui distinctio ipsa.
+                </p>
+                <div className="slide">
+                  <h4>SERVICES</h4>
+                  <ul>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                    <li>
+                      <i className="fa fa-check"></i>project
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

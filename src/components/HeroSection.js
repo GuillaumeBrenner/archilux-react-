@@ -8,8 +8,12 @@ function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
-      <h1 data-aos="fade-right">Here,</h1>
-      <p data-aos="fade-left" data-aos-duration="3000" data-aos-easing="ease-in">
+      <h1 data-aos="fade-right">Where,</h1>
+      <p
+        data-aos="fade-left"
+        data-aos-duration="3000"
+        data-aos-easing="ease-in"
+      >
         We build <span>Lux</span>URY.
       </p>
       <div className="hero-btns" data-aos="fade-up">

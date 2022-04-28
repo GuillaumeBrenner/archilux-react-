@@ -5,10 +5,25 @@ video {
   position: fixed;
   z-index: -1;
 }
-span {
+.hero-container span {
   color: crimson;
   letter-spacing: 2px;
   text-transform: uppercase;
+  animation: showup 5s ease-out;
+}
+@keyframes showup {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
 }
 
 .hero-container {
@@ -78,6 +93,11 @@ span {
 }
 
 @media all and (max-width: 800px) {
+  .hero-container h1,
+  .hero-container p {
+    font-size: 45px;
+    margin-left: 20px;
+  }
   .hero-btns {
     margin-top: 50px;
     margin-left: 10px;
