@@ -16,7 +16,7 @@
 }
 .homeAbout-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   column-gap: 2rem;
   row-gap: 1rem;
   position: relative;
@@ -65,4 +65,16 @@ img {
 
 .about-text p {
   color: #777;
+}
+
+@media all and (max-width: 800px) {
+  .homeAbout-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+  }
 }
