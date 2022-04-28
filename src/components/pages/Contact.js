@@ -46,24 +46,35 @@ export default function Contact() {
               <form autoComplete="off">
                 <h3 className="title">Contact Us</h3>
                 <div className="input-container">
-                  <input type="text" name="name" className="input" />
-                  <label>Name/Lastname</label>
-                  <span>Username</span>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name/Lastname"
+                    className="input"
+                  />
                 </div>
                 <div className="input-container">
-                  <input type="email" name="email" className="input" />
-                  <label>Email</label>
-                  <span>Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    className="input"
+                  />
                 </div>
                 <div className="input-container">
-                  <input type="tel" name="phone" className="input" />
-                  <label>Phone</label>
-                  <span>Phone</span>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone"
+                    className="input"
+                  />
                 </div>
                 <div className="input-container textarea">
-                  <textarea name="message" className="input"></textarea>
-                  <label>Message</label>
-                  <span>Message</span>
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    className="input"
+                  ></textarea>
                 </div>
                 <input type="submit" value="Send" className="btn-contact" />
               </form>
