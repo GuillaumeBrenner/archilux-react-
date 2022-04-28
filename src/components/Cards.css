@@ -3,8 +3,9 @@
   background: #fff;
 }
 
-h1 {
+.cards h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .cards__container {
