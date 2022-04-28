@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className={navbar ? 'navbar active' : 'navbar'}>
+      <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             ARCHILUX
@@ -88,6 +88,14 @@ function Navbar() {
             {button && <Button buttonStyle="btn--outline">CONTACT US</Button>}
           </Link>
         </div>
+        {/* <div>
+            <div>
+                <select  name="language">
+                    <option >FR</option>
+                    <option >EN</option>
+                </select>
+            </div>
+        </div> */}
       </nav>
     </>
   );
