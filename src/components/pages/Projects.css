@@ -23,7 +23,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 5px;
 }
 
 .image-card {
@@ -33,4 +33,10 @@
 
 .image {
   width: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .tag {
+    font-size: 20px;
+  }
 }
