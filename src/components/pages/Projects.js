@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../../App.css";
 import "./Projects.css";
 import Footer from "../Footer";
+import { SRLWrapper } from "simple-react-lightbox";
 
 const images = [
   { id: "1", imageName: "img1.jpeg", tag: "exterior" },
@@ -47,7 +48,9 @@ export default function Projects() {
     <>
       <div className="tags" handleSetTag={setTag}>
         <div className="projects-top">
-          <h1 className="projects-title" data-aos="fade-down">PROJECTS</h1>
+          <h1 className="projects-title" data-aos="fade-down">
+            PROJECTS
+          </h1>
           <div className="separator"></div>
         </div>
         <div data-aos="fade-down">
@@ -75,19 +78,21 @@ export default function Projects() {
             handleSetTag={setTag}
           />
         </div>
-        <div className="project-container" data-aos="fade-up">
-          {filteredImages.map((image) => (
-            <div key={image.id} className="image-card">
-              <a href={`/images/${image.imageName}`}>
-                <img
-                  className="image"
-                  src={`/images/${image.imageName}`}
-                  alt=""
-                />
-              </a>
-            </div>
-          ))}
-        </div>
+        <SRLWrapper>
+          <div className="project-container" data-aos="fade-up">
+            {filteredImages.map((image) => (
+              <div key={image.id} className="image-card">
+                <a href={`/images/${image.imageName}`}>
+                  <img
+                    className="image"
+                    src={`/images/${image.imageName}`}
+                    alt=""
+                  />
+                </a>
+              </div>
+            ))}
+          </div>
+        </SRLWrapper>
       </div>
       <Footer />
     </>
