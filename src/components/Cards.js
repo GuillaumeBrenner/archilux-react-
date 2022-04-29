@@ -1,6 +1,8 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
+import { Link } from "react-router-dom";
+import { Button } from "./Button";
 
 function Cards() {
   return (
@@ -44,6 +46,15 @@ function Cards() {
             />
           </ul>
         </div>
+        <Link to="/projects">
+          <Button
+            className="btns"
+            buttonStyle="btn--primary"
+            buttonSize="btn--test"
+          >
+            VIEW MORE
+          </Button>
+        </Link>
       </div>
     </div>
   );
