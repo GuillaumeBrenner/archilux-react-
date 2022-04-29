@@ -85,6 +85,5 @@ export default function Contact() {
 
       <Footer />
     </>
-    // <h1 classNameName='contact'>CONTACT</h1>
   );
 }

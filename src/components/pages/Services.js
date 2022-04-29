@@ -21,12 +21,12 @@ export default function Services() {
                 provident atque molestias voluptatum explicabo!
               </p>
             </div>
+
             <div className="panel-cards">
               <div className="panel" data-aos="fade-right">
                 <br />
                 <br />
-                {/* <i className="fa fa-cog fa-4x"></i> */}
-                <img src="images/compass.png"/>
+                <img src="images/compass.png" alt="" />
                 <h3>INTERIOR PLANING</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -60,8 +60,7 @@ export default function Services() {
                 <br />
                 <br />
 
-                {/* <i className="fa fa-cog fa-4x"></i> */}
-                <img src="images/construction.png"/>
+                <img src="images/construction.png" alt="" />
                 <h3>EXTERIOR DESIGN</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,8 +93,7 @@ export default function Services() {
               <div className="panel" data-aos="fade-up">
                 <br />
                 <br />
-                {/* <i className="fa fa-building fa-4x"></i> */}
-                <img src="images/sketch (1).png"/>
+                <img src="images/sketch (1).png" alt="" />
                 <h3>ARCHITECTURE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -128,8 +126,7 @@ export default function Services() {
               <div className="panel" data-aos="fade-left">
                 <br />
                 <br />
-                {/* <i className="fa fa-desktop fa-4x"></i> */}
-                <img src="images/style-selection.png"/>
+                <img src="images/style-selection.png" alt="" />
                 <h3>STYLE SELECTION</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -162,9 +159,9 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <div className="person"></div>
 
       <Footer />
     </>
   );
-  // <h1 classNameName='services'>SERVICES</h1>;
 }

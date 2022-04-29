@@ -1,0 +1,36 @@
+.tags {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 30px;
+}
+
+.tag {
+  outline: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin: 10px 10px;
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active-window {
+  color: crimson;
+  border-bottom: 1px solid rgb(236, 0, 0);
+}
+.project-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.image-card {
+  padding: 5px;
+  margin: 5px;
+}
+
+.image {
+  width: 100%;
+}
