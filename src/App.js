@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Navbar from "./components/Navbar";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
