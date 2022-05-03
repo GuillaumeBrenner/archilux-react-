@@ -15,29 +15,41 @@ export default function Contact() {
 
               <div className="info">
                 <div className="information">
-                  <img src="img/location.png" className="icon" alt="" />
-                  <p>Hédzranawoé, Eglise Catholique</p>
+                  <img src="images/location.png" className="icon" alt="" />
+                  <p>Lomé, Hédzranawoé</p>
                 </div>
                 <div className="information">
-                  <img src="img/email.png" className="icon" alt="" />
-                  <p>hounkpatiiguillaume@gmail.com</p>
+                  <img src="images/mail.png" className="icon" alt="" />
+                  <p>grouparchilux@gmail.com</p>
                 </div>
                 <div className="information">
-                  <img src="img/phone.png" className="icon" alt="" />
-                  <p>92 31 33 41</p>
+                  <img src="images/tel.png" className="icon" alt="" />
+                  <p>91 85 12 80 / 99 51 32 40</p>
                 </div>
               </div>
 
               <div className="social-media">
                 <p>Follow us on the networks :</p>
                 <div className="social-icons">
-                  <i className="fab fa-facebook-f"></i>
+                  <div className="social-name">
+                    <i className="fab fa-facebook-f"></i>
+                    <p>Facebook</p>
+                  </div>
 
-                  <i className="fab fa-twitter"></i>
+                  <div className="social-name">
+                    <i className="fab fa-twitter"></i>
+                    <p>Twitter</p>
+                  </div>
 
-                  <i className="fab fa-instagram"></i>
+                  <div className="social-name">
+                    <i className="fab fa-instagram"></i>
+                    <p>Instagram</p>
+                  </div>
 
-                  <i className="fab fa-linkedin-in"></i>
+                  <div className="social-name">
+                    <i className="fab fa-linkedin-in"></i>
+                    <p>Linkedin</p>
+                  </div>
                 </div>
               </div>
             </div>

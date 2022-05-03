@@ -13,7 +13,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items" data-aos="fade-up">
             <CardItem
-              src="images/projet1.jpg"
+              src="images/img-1.jpg"
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Villa"
               path="/projects"

@@ -27,7 +27,7 @@ export default function Services() {
                 <br />
                 <br />
                 <img src="images/compass.png" alt="" />
-                <h3>INTERIOR PLANING</h3>
+                <h3>INGENIERIE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -61,7 +61,7 @@ export default function Services() {
                 <br />
 
                 <img src="images/construction.png" alt="" />
-                <h3>EXTERIOR DESIGN</h3>
+                <h3>IMMOBILIER</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -93,7 +93,7 @@ export default function Services() {
               <div className="panel" data-aos="fade-up">
                 <br />
                 <br />
-                <img src="images/sketch (1).png" alt="" />
+                <img src="images/sketch.png" alt="" />
                 <h3>ARCHITECTURE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -127,7 +127,7 @@ export default function Services() {
                 <br />
                 <br />
                 <img src="images/style-selection.png" alt="" />
-                <h3>STYLE SELECTION</h3>
+                <h3>SUIVI ET CONTROLE</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam

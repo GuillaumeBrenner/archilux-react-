@@ -19,24 +19,34 @@
   border-bottom: 1px solid rgb(236, 0, 0);
 }
 .project-container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .image-card {
   padding: 5px;
-  margin: 5px;
+  margin: 15px;
 }
 
-.image {
+.projects-image {
   width: 100%;
+  height: 100%;
+}
+.projects-image:hover {
+  transform: translateY(-15px);
+  transition: all 0.5s ease;
 }
 
 @media all and (max-width: 800px) {
   .tag {
     font-size: 20px;
+    transition: 0.9s ease;
+  }
+  .image-card {
+    padding: 5px;
+    margin: 0px;
   }
 }

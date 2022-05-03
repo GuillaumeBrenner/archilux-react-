@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../../App.css";
 import "./Projects.css";
 import Footer from "../Footer/Footer";
-import images from "./Data/data"
+import images from "./Data/data";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const options = {
@@ -19,14 +19,10 @@ const options = {
     showThumbnailsButton: false,
     size: "40px",
   },
-  // caption: {
-  //   captionColor: "#e8eddf",
-  //   captionFontSize: "18px",
-  // },
   settings: {
     boxShadow: "none",
     hideControlsAfter: 5000,
-    lightboxTransitionSpeed: 0.5,
+    lightboxTransitionSpeed: 0.3,
     lightboxTransitionTimingFunction: "linear",
     overlayColor: "rgba(30, 30, 30, 0.9)",
     slideTransitionSpeed: 0.9,
@@ -68,7 +64,7 @@ export default function Projects() {
           </h1>
           <div className="separator"></div>
         </div>
-        <div data-aos="fade-down">
+        <div data-aos="fade-up">
           <TagButton
             name="all"
             tagActive={tag === "all" ? true : false}
@@ -99,7 +95,7 @@ export default function Projects() {
               <div key={image.id} className="image-card">
                 <a href={`/images/${image.imageName}`}>
                   <img
-                    className="image"
+                    className="projects-image"
                     src={`/images/${image.imageName}`}
                     alt=""
                   />

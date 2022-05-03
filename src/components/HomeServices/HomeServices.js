@@ -29,7 +29,7 @@ function HomeServices() {
                 <VisibilitySensor partialVisibility>
                   {({ isVisible }) => (
                     <div style={{ height: 60 }}>
-                      {isVisible ? <CountUp end={75} /> : null}
+                      {isVisible ? <CountUp end={85} /> : null}
                     </div>
                   )}
                 </VisibilitySensor>
@@ -42,7 +42,7 @@ function HomeServices() {
                 <VisibilitySensor partialVisibility>
                   {({ isVisible }) => (
                     <div style={{ height: 60 }}>
-                      {isVisible ? <CountUp end={150} duration={3} /> : null}+
+                      {isVisible ? <CountUp end={90} duration={3} /> : null}+
                     </div>
                   )}
                 </VisibilitySensor>

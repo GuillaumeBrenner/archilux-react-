@@ -38,7 +38,7 @@ function Footer() {
                 data-aos="fade-up"
                 data-aos-duration="3000"
               >
-                <Link to="/" className="social-logo">
+                <Link to="/" className="app-name">
                   ARCHILUX
                 </Link>
               </h2>
@@ -64,13 +64,13 @@ function Footer() {
               <h4>Address</h4>
               <ul>
                 <li>
-                  <i className="fas fa-map-marker-alt"></i> Lomé,Hedzranawoe
+                  <i className="fas fa-map-marker-alt"></i> Lomé, Hédzranawoé
                 </li>
                 <li>
-                  <i className="fas fa-phone-alt"></i> +228 92313341
+                  <i className="fas fa-phone-alt"></i> 91 85 12 80 / 99 51 32 40
                 </li>
                 <li>
-                  <i className="fas fa-envelope"></i> hounkpatii@gmail.com
+                  <i className="fas fa-envelope"></i> grouparchilux@gmail.com
                 </li>
               </ul>
             </div>

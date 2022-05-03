@@ -87,15 +87,13 @@ function Navbar() {
           <Link to="/contact" className="btn-mobile">
             {button && <Button buttonStyle="btn--outline">CONTACT US</Button>}
           </Link>
+          {/* <div className="language">
+            <select name="language">
+              <option>FR</option>
+              <option>EN</option>
+            </select>
+          </div> */}
         </div>
-        {/* <div>
-            <div>
-                <select  name="language">
-                    <option >FR</option>
-                    <option >EN</option>
-                </select>
-            </div>
-        </div> */}
       </nav>
     </>
   );
