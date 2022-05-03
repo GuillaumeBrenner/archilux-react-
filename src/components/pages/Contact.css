@@ -199,8 +199,8 @@ textarea.input {
     padding: 1.7rem 1.6rem;
   }
 
-  .information {
-    margin-top: -10px;
+  .info-wrapper {
+    display: grid;
     justify-content: center;
   }
   .text,
@@ -226,9 +226,6 @@ textarea.input {
 }
 
 @media all and (max-width: 500px) {
-  .info {
-    margin-top: -10px;
-  }
   .information {
     display: flex;
     margin: 0.2rem 5px;

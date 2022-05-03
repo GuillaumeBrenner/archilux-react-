@@ -11,20 +11,22 @@ export default function Contact() {
           <div className="form-wrapper">
             <div className="contact-info" data-aos="fade-down">
               <h3 className="title">Let's Connect</h3>
-              <p className="text">Contact us on the address below :</p>
 
               <div className="info">
-                <div className="information">
-                  <img src="images/endroit.png" className="icon" alt="" />
-                  <p>Lomé, Hédzranawoé</p>
-                </div>
-                <div className="information">
-                  <img src="images/mail.png" className="icon" alt="" />
-                  <p>grouparchilux@gmail.com</p>
-                </div>
-                <div className="information">
-                  <img src="images/support2.png" className="icon" alt="" />
-                  <p>91 85 12 80 / 99 51 32 40</p>
+                <p className="text">Contact us on the address below :</p>
+                <div className="info-wrapper">
+                  <div className="information">
+                    <img src="images/endroit.png" className="icon" alt="" />
+                    <p>Lomé, Hédzranawoé</p>
+                  </div>
+                  <div className="information">
+                    <img src="images/mail.png" className="icon" alt="" />
+                    <p>grouparchilux@gmail.com</p>
+                  </div>
+                  <div className="information">
+                    <img src="images/support2.png" className="icon" alt="" />
+                    <p>91 85 12 80 / 99 51 32 40</p>
+                  </div>
                 </div>
               </div>
 
