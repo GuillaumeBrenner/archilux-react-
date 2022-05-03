@@ -90,6 +90,7 @@
 .social-name {
   display: flex;
   align-items: center;
+  font-size: 0.95rem;
 }
 
 .contact-form {
@@ -168,6 +169,13 @@ textarea.input {
   color: #fff;
 }
 
+@media all and (min-width: 850px) and (max-width: 1070px) {
+  .contact-info .title,
+  .contact-form .title {
+    font-size: 3.5rem;
+  }
+}
+
 @media all and (max-width: 850px) {
   .contact-section {
     align-items: center;
@@ -226,17 +234,19 @@ textarea.input {
 }
 
 @media all and (max-width: 500px) {
+  .form-wrapper {
+    justify-content: center;
+  }
   .information {
     display: flex;
     margin: 0.2rem 5px;
     align-items: center;
   }
   .social-icons {
-    display: grid;
-    justify-content: center;
+    display: flex;
   }
   .social-name {
-    display: flex;
-    margin: 0rem;
+    display: grid;
+    margin: 0.5rem;
   }
 }
