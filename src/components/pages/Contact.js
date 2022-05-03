@@ -15,7 +15,7 @@ export default function Contact() {
 
               <div className="info">
                 <div className="information">
-                  <img src="images/location.png" className="icon" alt="" />
+                  <img src="images/endroit.png" className="icon" alt="" />
                   <p>Lomé, Hédzranawoé</p>
                 </div>
                 <div className="information">
@@ -23,7 +23,7 @@ export default function Contact() {
                   <p>grouparchilux@gmail.com</p>
                 </div>
                 <div className="information">
-                  <img src="images/tel.png" className="icon" alt="" />
+                  <img src="images/support2.png" className="icon" alt="" />
                   <p>91 85 12 80 / 99 51 32 40</p>
                 </div>
               </div>

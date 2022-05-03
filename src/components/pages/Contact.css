@@ -8,7 +8,7 @@
   position: relative;
   padding: 3rem;
   overflow: hidden;
-  margin: 50px;
+  margin: 10px;
 }
 
 .form-wrapper {
@@ -218,5 +218,9 @@ textarea.input {
   .social-name {
     display: grid;
     margin: 1rem;
+  }
+
+  .icon {
+    width: 30px;
   }
 }
