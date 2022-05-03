@@ -224,3 +224,22 @@ textarea.input {
     width: 30px;
   }
 }
+
+@media all and (max-width: 500px) {
+  .info {
+    margin-top: -10px;
+  }
+  .information {
+    display: flex;
+    margin: 0.2rem 5px;
+    align-items: center;
+  }
+  .social-icons {
+    display: grid;
+    justify-content: center;
+  }
+  .social-name {
+    display: flex;
+    margin: 0rem;
+  }
+}
