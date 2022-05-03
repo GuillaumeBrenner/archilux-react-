@@ -86,5 +86,4 @@ export default function About() {
       <Footer />
     </>
   );
-  // <h1 classNameName='about'>LIKE & SUBSCRIBE</h1>;
 }

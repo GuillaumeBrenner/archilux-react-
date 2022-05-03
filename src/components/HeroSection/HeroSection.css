@@ -111,3 +111,16 @@ video {
     z-index: -1;
   }
 }
+
+@media all and (max-width: 550px) {
+  .hero-container h1,
+  .hero-container p {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .hero-btns {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 60%;
+  }
+}

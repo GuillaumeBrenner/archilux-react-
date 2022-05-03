@@ -169,6 +169,23 @@ textarea.input {
   color: #fff;
 }
 
+.map-section {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  overflow: hidden;
+  margin-top: -90px;
+  margin-bottom: 50px;
+}
+
+.map-section iframe {
+  background-color: #fff;
+  padding: 10px;
+  z-index: 1001;
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+
 @media all and (min-width: 850px) and (max-width: 1070px) {
   .contact-info .title,
   .contact-form .title {

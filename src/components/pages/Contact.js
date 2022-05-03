@@ -97,6 +97,16 @@ export default function Contact() {
         </div>
       </section>
 
+      <section className="map-section">
+        <iframe
+          title="map"
+          width="900"
+          height="300"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=lom%C3%A9%20h%C3%A9drzanawo%C3%A9%20Jovana%20Beauty&t=k&z=11&ie=UTF8&iwloc=&output=embed"
+        />
+      </section>
+
       <Footer />
     </>
   );
