@@ -32,7 +32,7 @@ function HomeAbout() {
             </div>
           </div>
           <div className="about-text" data-aos="fade-down">
-            <div className="text1">
+            <div className="description">
               <h3>Who we are</h3>
               <p>
                 Bring to the table win-win survival strategies to ensure
@@ -41,7 +41,7 @@ function HomeAbout() {
               </p>
             </div>
 
-            <div className="text2">
+            <div className="description">
               <h3>Our philosophy</h3>
               <p>
                 A new normal that has evolved from generation X is on the runway
@@ -49,7 +49,7 @@ function HomeAbout() {
                 content in real-time.
               </p>
             </div>
-            <div className="text3">
+            <div className="description">
               <h3>How we work</h3>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value

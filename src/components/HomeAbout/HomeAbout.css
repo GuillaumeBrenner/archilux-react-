@@ -75,6 +75,17 @@ img {
   .about-text {
     text-align: center;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: -20px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .about-text {
+    text-align: center;
+    padding: 10px;
+    margin-top: -20px;
+  }
+  .description {
+    margin: -10px 15px -15px 15px;
   }
 }

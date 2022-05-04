@@ -97,7 +97,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="map-section">
+      <section className="map-section" data-aos="zoom-in">
         <iframe
           title="map"
           width="900"
