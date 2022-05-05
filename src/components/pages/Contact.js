@@ -101,9 +101,9 @@ export default function Contact() {
         <iframe
           title="map"
           width="900"
-          height="300"
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?q=lom%C3%A9%20h%C3%A9drzanawo%C3%A9%20Jovana%20Beauty&t=k&z=11&ie=UTF8&iwloc=&output=embed"
+          height="350"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6662522345846!2d1.2399546291725134!3d6.175581699720572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e38b32aabb01%3A0xa03e60e7eb0a1a48!2sJovana%20Beauty!5e0!3m2!1sfr!2stg!4v1651662281031!5m2!1sfr!2stg"
+          // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6659715029264!2d1.2399148291885846!3d6.175731599720569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e35faeb324cb%3A0xde3e1b59553a8161!2sCENTRALE%20OPTIQUE%2C%20lunetterie%20m%C3%A9dicale!5e0!3m2!1sfr!2stg!4v1651660091926!5m2!1sfr!2stg"
         />
       </section>
 

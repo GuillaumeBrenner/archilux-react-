@@ -97,9 +97,12 @@ export default function Projects() {
                   <img
                     className="projects-image"
                     src={`/images/${image.imageName}`}
-                    alt=""
+                    alt={image.description}
                   />
                 </a>
+                <div className="description">
+                  <h1> {image.description} </h1>
+                </div>
               </div>
             ))}
           </div>
