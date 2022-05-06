@@ -13,6 +13,9 @@
   background: linear-gradient(90deg, rgb(66, 29, 139) 0%, rgb(0, 75, 97) 100%);
   transition: 5.3s ease;
 }
+/* .navbar.active .navbar-logo {
+  color: #000;
+} */
 
 .navbar-container {
   display: flex;
@@ -28,9 +31,15 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
+  letter-spacing: 5px;
+}
+.navbar-logo span {
+  color: yellow;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  padding-left: 3px;
 }
 
 .nav-menu {
@@ -81,6 +90,10 @@
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+  }
+  .navbar-logo {
+    font-size: 2rem;
+    letter-spacing: 0px;
   }
 
   .nav-menu {

@@ -39,7 +39,7 @@ function Navbar() {
       <nav className={navbar ? "navbar active" : "navbar"}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            ARCHILUX
+            Archi<span>LUX</span>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "close-menu" : "fas fa-bars"} />

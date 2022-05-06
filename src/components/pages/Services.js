@@ -35,7 +35,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>SERVICES</h4>
+                  <h4>INGENIERIE</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -69,7 +69,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>SERVICES</h4>
+                  <h4>IMMOBILIER</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -102,7 +102,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>SERVICES</h4>
+                  <h4>ARCHITECTURE</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -135,7 +135,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>SERVICES</h4>
+                  <h4>SUIVI ET CONTROLE</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project

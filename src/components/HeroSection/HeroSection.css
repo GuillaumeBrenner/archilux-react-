@@ -6,7 +6,7 @@ video {
   z-index: -1;
 }
 .hero-container span {
-  color: crimson;
+  color: yellow;
   letter-spacing: 2px;
   text-transform: uppercase;
   animation: showup 5s ease-out;

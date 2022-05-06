@@ -19,6 +19,12 @@ const options = {
     showThumbnailsButton: false,
     size: "40px",
   },
+  caption: {
+    captionFontFamily: "Raleway, sans-serif",
+    captionFontSize: "25px",
+    captionFontWeight: "700",
+    captionTextTransform: "uppercase",
+  },
   settings: {
     boxShadow: "none",
     hideControlsAfter: 5000,

@@ -14,7 +14,7 @@ export default function About() {
         <div className="about-container">
           <div className="col-left" data-aos="fade-right">
             <div className="about-img">
-              <img src="images/projet1.jpg" alt="img" />
+              <img src="images/img-history.jpg" alt="img" />
             </div>
           </div>
           <div className="col-right" data-aos="fade-left">
