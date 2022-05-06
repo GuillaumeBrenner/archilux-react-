@@ -1,0 +1,23 @@
+.home-slick {
+  padding: 5rem;
+  background: #fff;
+  background: url("/images/img9.jpg") center center/cover no-repeat;
+}
+
+.contain p {
+  padding: 5rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-slick h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.slick-text {
+  border: 2px solid;
+  background-color: #fff;
+  border-color: rgba(255, 255, 255, .1);
+}

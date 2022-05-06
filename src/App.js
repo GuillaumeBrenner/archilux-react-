@@ -9,6 +9,8 @@ import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   useEffect(() => {

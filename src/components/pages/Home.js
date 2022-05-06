@@ -5,6 +5,7 @@ import HeroSection from "../HeroSection/HeroSection";
 import Footer from "../Footer/Footer";
 import HomeAbout from "../HomeAbout/HomeAbout";
 import HomeServices from "../HomeServices/HomeServices";
+import Slick from "../Slick/Slick";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HomeAbout />
       <HomeServices />
       <Cards />
+      <Slick />
       <Footer />
     </>
   );
