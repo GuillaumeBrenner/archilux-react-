@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import LangSelector from "../LangSelector/LangSelector";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -34,6 +36,8 @@ function Navbar() {
   };
   window.addEventListener("scroll", changeBackground);
 
+  const { t } = useTranslation();
+
   return (
     <>
       <nav className={navbar ? "navbar active" : "navbar"}>
@@ -47,7 +51,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                HOME
+                {t("home")}
               </Link>
             </li>
             <li className="nav-item">
@@ -65,12 +69,12 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                PROJECTS
+                {t("project")}
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                ABOUT
+                {t("about")}
               </Link>
             </li>
 
@@ -80,12 +84,14 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Contact
+                {t("contactUs")}
               </Link>
             </li>
           </ul>
           <Link to="/contact" className="btn-mobile">
-            {button && <Button buttonStyle="btn--outline">CONTACT US</Button>}
+            {button && (
+              <Button buttonStyle="btn--outline">{t("contactUs")}</Button>
+            )}
           </Link>
           {/* <div className="language">
             <select name="language">
@@ -94,6 +100,7 @@ function Navbar() {
             </select>
           </div> */}
         </div>
+        <LangSelector />
       </nav>
     </>
   );

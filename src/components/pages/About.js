@@ -2,13 +2,16 @@ import React from "react";
 import "../../App.css";
 import "./About.css";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section>
         <h1 className="section-title" data-aos="fade-down">
-          HISTORY
+          {t("history")}
         </h1>
         <div className="separator"></div>
         <div className="about-container">
@@ -35,7 +38,7 @@ export default function About() {
       </section>
       <section>
         <h1 className="section-title" data-aos="fade-up">
-          TEAM
+          {t("team")}
         </h1>
         <div className="separator"></div>
         <div className="about-container">

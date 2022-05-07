@@ -2,16 +2,18 @@ import React from "react";
 import "../../App.css";
 import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="contact-section">
         <div className="contact-container">
           <div className="form-wrapper">
             <div className="contact-info" data-aos="fade-down">
-              <h3 className="title">Let's Connect</h3>
-
+              <h3 className="title">{t("lets_connect")}</h3>
               <div className="info">
                 <p className="text">Contact us on the address below :</p>
                 <div className="info-wrapper">
@@ -58,7 +60,7 @@ export default function Contact() {
 
             <div className="contact-form" data-aos="fade-up">
               <form autoComplete="off">
-                <h3 className="title">Contact Us</h3>
+                <h3 className="title">{t("contact_us")}</h3>
                 <div className="input-container">
                   <input
                     type="text"

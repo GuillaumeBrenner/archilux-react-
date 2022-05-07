@@ -4,6 +4,7 @@ import "./Projects.css";
 import Footer from "../Footer/Footer";
 import images from "./Data/data";
 import { SRLWrapper } from "simple-react-lightbox";
+import { useTranslation } from "react-i18next";
 
 const options = {
   buttons: {
@@ -61,12 +62,14 @@ export default function Projects() {
     );
   };
 
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="tags" handlesetag={tag}>
         <div className="projects-top">
           <h1 className="projects-title" data-aos="fade-down">
-            PROJECTS
+            {t("project")}
           </h1>
           <div className="separator"></div>
         </div>

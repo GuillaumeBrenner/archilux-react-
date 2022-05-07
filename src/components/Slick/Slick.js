@@ -6,6 +6,7 @@ function Slick() {
   const settings = {
     dots: true,
     infinite: true,
+    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,

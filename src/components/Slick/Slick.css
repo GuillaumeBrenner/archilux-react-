@@ -1,7 +1,7 @@
 .home-slick {
   padding: 5rem;
-  background: #fff;
-  background: url("/images/img9.jpg") center center/cover no-repeat;
+  background: #F5F5F5;
+  /* background: url("/images/img9.jpg") center center/cover no-repeat; */
 }
 
 .contain p {
