@@ -8,6 +8,11 @@
   "history": "HISTOIRE",
   "team": "EQUIPE",
 
+  "news_letter": "Souscrivez à notre newsletter pour recevoir les derniers projets.",
+  "unsubscribe": "Vous pouvez vous désabonner à tout moment.",
+  "subscribe_button": "Abonnez-vous maintenant",
+  "company": "Agence",
+
   "lets_connect": "Connexion",
   "contact_us": "Nous Contactez"
 }

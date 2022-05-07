@@ -6,7 +6,7 @@ import "./i18n";
 
 ReactDOM.render(
   <SimpleReactLightbox>
-    <Suspense fallback={<span>Loading...</span>}>
+    <Suspense fallback={<h1>Loading...</h1>}>
       <App />
     </Suspense>
   </SimpleReactLightbox>,

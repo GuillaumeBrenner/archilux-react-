@@ -3,18 +3,17 @@ import "./Footer.css";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="footer-container">
         <section className="footer-subscription" data-aos="fade-down">
-          <p className="footer-subscription-heading">
-            Subscribe to our newsletter to receive the latest projects.
-          </p>
-          <p className="footer-subscription-text">
-            You can unsubscribe at any time.
-          </p>
+          <p className="footer-subscription-heading">{t("news_letter")}</p>
+          <p className="footer-subscription-text">{t("unsubscribe")}</p>
           <div className="input-areas">
             <form>
               <input
@@ -23,7 +22,7 @@ function Footer() {
                 type="email"
                 placeholder="Your Email"
               />
-              <Button>Subscribe Now</Button>
+              <Button>{t("subscribe_button")}</Button>
             </form>
           </div>
         </section>
@@ -44,7 +43,7 @@ function Footer() {
               </h2>
             </div>
             <div className="footer-col">
-              <h4>company</h4>
+              <h4>{t("company")}</h4>
               <ul>
                 <li>
                   <Link to="/about">about us</Link>
