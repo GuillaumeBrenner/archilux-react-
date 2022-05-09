@@ -28,13 +28,13 @@ function Navbar() {
 
   window.addEventListener("resize", showButton);
 
-  const changeBackground = () => {
+  function changeBackground() {
     if (window.scrollY >= 200) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
-  };
+  }
   window.addEventListener("scroll", changeBackground);
 
   const { t } = useTranslation();
