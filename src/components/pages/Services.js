@@ -14,7 +14,7 @@ export default function Services() {
           <div className="services-wrapper">
             <div className="services-top">
               <h1 className="section-title" data-aos="fade-down">
-              {t("service_title")}
+                {t("service_title")}
               </h1>
               <div className="separator"></div>
               <p data-aos="zoom-in">
