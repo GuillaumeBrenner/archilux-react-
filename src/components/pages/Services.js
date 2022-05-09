@@ -30,7 +30,7 @@ export default function Services() {
                 <br />
                 <br />
                 <img src="images/compass.png" alt="" />
-                <h3>INGENIERIE</h3>
+                <h3>{t("panel1_title")}</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -38,7 +38,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>INGENIERIE</h4>
+                  <h4>{t("panel1_title")}</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -64,7 +64,7 @@ export default function Services() {
                 <br />
 
                 <img src="images/construction.png" alt="" />
-                <h3>IMMOBILIER</h3>
+                <h3>{t("panel2_title")}</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -72,7 +72,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>IMMOBILIER</h4>
+                  <h4>{t("panel2_title")}</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -97,7 +97,7 @@ export default function Services() {
                 <br />
                 <br />
                 <img src="images/sketch.png" alt="" />
-                <h3>ARCHITECTURE</h3>
+                <h3>{t("panel3_title")}</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -105,7 +105,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>ARCHITECTURE</h4>
+                  <h4>{t("panel3_title")}</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project
@@ -130,7 +130,7 @@ export default function Services() {
                 <br />
                 <br />
                 <img src="images/style-selection.png" alt="" />
-                <h3>SUIVI ET CONTROLE</h3>
+                <h3>{t("panel4_title")}</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Impedit reprehenderit assumenda alias ipsum inventore numquam
@@ -138,7 +138,7 @@ export default function Services() {
                   iste amet, quis beatae ullam qui distinctio ipsa.
                 </p>
                 <div className="slide">
-                  <h4>SUIVI ET CONTROLE</h4>
+                  <h4>{t("panel4_title")}</h4>
                   <ul>
                     <li>
                       <i className="fa fa-check"></i>project

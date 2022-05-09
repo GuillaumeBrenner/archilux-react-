@@ -136,9 +136,10 @@ form {
   background: none;
   padding: 0.6rem 1.2rem;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.625em;
   border-radius: 10px;
+  font-family: "Poppins", Sans-serif;
 }
 
 textarea.input {
@@ -162,6 +163,7 @@ textarea.input {
   cursor: pointer;
   transition: 0.3s;
   margin: 0;
+  font-family: "Poppins", Sans-serif;
 }
 
 .btn-contact:hover {
