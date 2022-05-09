@@ -2,17 +2,55 @@
   "home": "ACCEUIL",
   "services": "SERVICES",
   "project": "PROJETS",
-  "about": "A PROPOS",
+  "about": "AGENCE",
   "contactUs": "NOUS CONTACTER",
+
+  "about_us": "A PROPOS DE NOUS",
+  "our_projects": "NOS PROJETS",
+  "more_than": "PLUS Q'UNE AGENCE D'ARCHITECTURE",
+  "who_we_are": "QUI SOMMES-NOUS?",
+  "philosophy": "NOTRE PHILOSOPHIE",
+  "how_we_work": "COMMENT NOUS TRAVAILLONS",
+
+  "experience": "expérience",
+  "years": "années d'expérience",
+  "finished": "projets finis",
+  "clients": "clients heureux",
+
+  "feedback": "CE QUE DISENT NOS CLIENTS",
+
+  "check_project": "REGARDER NOS MEILLEURS PROJETS",
+  "view_more": "VOIR PLUS",
+
+  "service_title": "NOS SERVICES",
+  "panel1_title": "",
+  "panel2_title": "",
+  "panel3_title": "",
+  "panel4_title": "",
+
+  "projet_title": "",
+  "all_tag": "tous",
+  "interior_tag": "interieur",
+  "exterior_tag": "exterieur",
+  "house_tag": "maison",
 
   "history": "HISTOIRE",
   "team": "EQUIPE",
 
+  "lets_connect": "Connexion",
+  "adress_below": "Nous joindre avec les adresses ci-dessous",
+  "networks": "Nous suivre sur les réseaux",
+
+  "contact_us": "Ecrivez-Nous",
+  "name_input": "Nom/Prénoms",
+  "phone_input": "Téléphone",
+  "send_btn": "Envoyer",
+
   "news_letter": "Souscrivez à notre newsletter pour recevoir les derniers projets.",
   "unsubscribe": "Vous pouvez vous désabonner à tout moment.",
-  "subscribe_button": "Abonnez-vous maintenant",
+  "mail": "Entrer votre email",
+  "subscribe_button": "S'abonner Maintenant",
   "company": "Agence",
-
-  "lets_connect": "Connexion",
-  "contact_us": "Nous Contactez"
+  "address": "adresse",
+  "follow_us": "Nous suivre"
 }

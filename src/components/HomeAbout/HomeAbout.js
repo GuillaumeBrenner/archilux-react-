@@ -1,11 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./HomeAbout.css";
 
 function HomeAbout() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="home-about">
-        <h1 data-aos="fade-up">More than an architecture agency</h1>
+        <h1 data-aos="fade-up">{t("more_than")}</h1>
         <div className="separator" data-aos="fade-down"></div>
         <div className="homeAbout-container">
           <div className="homeAbout-grid">
@@ -33,7 +36,7 @@ function HomeAbout() {
           </div>
           <div className="about-text" data-aos="fade-down">
             <div className="description">
-              <h3>Who we are</h3>
+              <h3>{t("who_we_are")}</h3>
               <p>
                 Bring to the table win-win survival strategies to ensure
                 proactive domination. At the end of the day, going forward will
@@ -42,7 +45,7 @@ function HomeAbout() {
             </div>
 
             <div className="description">
-              <h3>Our philosophy</h3>
+              <h3>{t("philosophy")}</h3>
               <p>
                 A new normal that has evolved from generation X is on the runway
                 heading towards a streamlined cloud solution. User generated
@@ -50,7 +53,7 @@ function HomeAbout() {
               </p>
             </div>
             <div className="description">
-              <h3>How we work</h3>
+              <h3>{t("how_we_work")}</h3>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
                 added activity to beta test. Override the digital divide with

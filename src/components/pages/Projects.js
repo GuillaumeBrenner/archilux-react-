@@ -75,25 +75,25 @@ export default function Projects() {
         </div>
         <div data-aos="fade-up">
           <TagButton
-            name="all"
+            name={t("all_tag")}
             tagActive={tag === "all" ? true : false}
             handlesetag={setTag}
           />{" "}
           |
           <TagButton
-            name="interior"
+            name={t("interior_tag")}
             tagActive={tag === "interior" ? true : false}
             handlesetag={setTag}
           />{" "}
           |
           <TagButton
-            name="exterior"
+            name={t("exterior_tag")}
             tagActive={tag === "exterior" ? true : false}
             handlesetag={setTag}
           />{" "}
           |
           <TagButton
-            name="house"
+            name={t("house_tag")}
             tagActive={tag === "house" ? true : false}
             handlesetag={setTag}
           />

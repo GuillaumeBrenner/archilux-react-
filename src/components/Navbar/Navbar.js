@@ -93,14 +93,10 @@ function Navbar() {
               <Button buttonStyle="btn--outline">{t("contactUs")}</Button>
             )}
           </Link>
-          {/* <div className="language">
-            <select name="language">
-              <option>FR</option>
-              <option>EN</option>
-            </select>
-          </div> */}
+          <div className="language">
+            <LangSelector />
+          </div>
         </div>
-        <LangSelector />
       </nav>
     </>
   );

@@ -1,12 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
 import "./HeroSection.css";
 
 function HeroSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="hero-container">
-      <video src="/videos/video-1.mp4" autoPlay loop muted />
+      {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
       <h1 data-aos="fade-right">WHERE,</h1>
       <p
         data-aos="fade-left"
@@ -22,7 +25,7 @@ function HeroSection() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            ABOUT US
+            {t("about_us")}
           </Button>
         </Link>
         <Link to="/projects">
@@ -31,7 +34,8 @@ function HeroSection() {
             buttonStyle="btn--primary"
             buttonSize="btn--large"
           >
-            OUR PROJECTS <i className="fas fa-rocket" />
+            {t("our_projects")}
+            <i className="fas fa-rocket" />
           </Button>
         </Link>
       </div>

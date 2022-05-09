@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="contact-info" data-aos="fade-down">
               <h3 className="title">{t("lets_connect")}</h3>
               <div className="info">
-                <p className="text">Contact us on the address below :</p>
+                <p className="text">{t("adress_below")} :</p>
                 <div className="info-wrapper">
                   <div className="information">
                     <img src="images/endroit.png" className="icon" alt="" />
@@ -33,7 +33,7 @@ export default function Contact() {
               </div>
 
               <div className="social-media">
-                <p>Follow us on the networks :</p>
+                <p>{t("networks")} :</p>
                 <div className="social-icons">
                   <div className="social-name">
                     <i className="fab fa-facebook-f"></i>
@@ -65,7 +65,7 @@ export default function Contact() {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Name/Lastname"
+                    placeholder={t("name_input")}
                     className="input"
                   />
                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                   <input
                     type="tel"
                     name="phone"
-                    placeholder="Phone"
+                    placeholder={t("phone_input")}
                     className="input"
                   />
                 </div>
@@ -92,7 +92,11 @@ export default function Contact() {
                     className="input"
                   ></textarea>
                 </div>
-                <input type="submit" value="Send" className="btn-contact" />
+                <input
+                  type="submit"
+                  value={t("send_btn")}
+                  className="btn-contact"
+                />
               </form>
             </div>
           </div>

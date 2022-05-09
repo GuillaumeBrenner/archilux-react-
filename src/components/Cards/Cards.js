@@ -3,11 +3,14 @@ import "./Cards.css";
 import CardItem from "./CardItem";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
+import { useTranslation } from "react-i18next";
 
 function Cards() {
+  const { t } = useTranslation();
+
   return (
     <div className="cards">
-      <h1 data-aos="fade-up">Check out our Best Projects</h1>
+      <h1 data-aos="fade-up">{t("check_project")}</h1>
       <div className="separator" data-aos="fade-down"></div>
       <div className="cards__container">
         <div className="cards__wrapper">
@@ -25,7 +28,7 @@ function Cards() {
               path="/projects"
             />
           </ul>
-          <ul className="cards__items" data-aos="fade-up">
+          <ul className="cards__items" data-aos="fade-down">
             <CardItem
               src="images/interior3.jpg"
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
@@ -52,7 +55,7 @@ function Cards() {
             buttonStyle="btn--primary"
             buttonSize="btn--test"
           >
-            VIEW MORE
+            {t("view_more")}
           </Button>
         </Link>
       </div>

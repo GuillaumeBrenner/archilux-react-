@@ -20,9 +20,9 @@ function Footer() {
                 className="footer-input"
                 name="email"
                 type="email"
-                placeholder="Your Email"
+                placeholder={t("mail")}
               />
-              <Button>{t("subscribe_button")}</Button>
+              <Button buttonStyle="btn--outline">{t("subscribe_button")}</Button>
             </form>
           </div>
         </section>
@@ -46,21 +46,21 @@ function Footer() {
               <h4>{t("company")}</h4>
               <ul>
                 <li>
-                  <Link to="/about">about us</Link>
+                  <Link to="/about">{t("about_us")}</Link>
                 </li>
                 <li>
-                  <Link to="/services">our services</Link>
+                  <Link to="/services">{t("services")}</Link>
                 </li>
                 <li>
-                  <Link to="/projects">our projects</Link>
+                  <Link to="/projects">{t("our_projects")}</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact us</Link>
+                  <Link to="/contact">{t("contactUs")}</Link>
                 </li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>Address</h4>
+              <h4>{t("address")}</h4>
               <ul>
                 <li>
                   <i className="fas fa-map-marker-alt"></i> Lomé, Hédzranawoé
@@ -74,7 +74,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-col">
-              <h4>follow us</h4>
+              <h4>{t("follow_us")}</h4>
               <div className="social-links">
                 <i className="fab fa-facebook-f"></i>
                 <i className="fab fa-twitter"></i>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import "./LangSelector.css";
 
 function LangSelector() {
   const { i18n } = useTranslation();
@@ -10,8 +11,8 @@ function LangSelector() {
     i18n.changeLanguage(event.target.value);
   };
   return (
-    <div onChange={changeLanguage}>
-      <select name="language">
+    <div onChange={changeLanguage} className="language-container">
+      <select name="language-select">
         <option
           type="select"
           value="en"

@@ -5,14 +5,52 @@
   "about": "ABOUT",
   "contactUs": "CONTACT US",
 
+  "about_us": "ABOUT US",
+  "our_projects": "OUR PROJECTS",
+  "more_than": "MORE THAN AN ARCHITECTURE AGENCY",
+  "who_we_are": "WHO WE ARE",
+  "philosophy": "OUR PHILOSOPHY",
+  "how_we_work": "HOW WE WORK",
+
+  "experience": "EXPERIENCE",
+  "years": "YEARS EXPERIENCE",
+  "finished": "FINISHED PROJECTS",
+  "clients": "HAPPY CLIENTS",
+
+  "feedback": "FEEDBACK",
+
+  "check_project": "CHECK OUT OUR BEST PROJECTS",
+  "view_more": "VIEW MORE",
+
+  "service_title": "LOOK OUR BEST SERVICES",
+  "panel1_title": "",
+  "panel2_title": "",
+  "panel3_title": "",
+  "panel4_title": "",
+
+  "projet_title": "",
+  "all_tag": "all",
+  "interior_tag": "interior",
+  "exterior_tag": "exterior",
+  "house_tag": "house",
+
   "history": "HISTORY",
   "team": "TEAM",
 
+  "lets_connect": "Let's Connect",
+  "adress_below": "Contact us on the address below ",
+  "networks": "Follow us on the networks",
+
+  "contact_us": "Contact Us",
+  "name_input": "Name/Lastname",
+  "phone_input": "Phone number",
+  "send_btn": "Send",
+
   "news_letter": "Subscribe to our newsletter to receive the latest projects.",
   "unsubscribe": "You can unsubscribe at any time.",
+  "mail": "Your Email",
   "subscribe_button": "Subscribe Now",
   "company": "Company",
-
-  "lets_connect": "Let's Connect",
-  "contact_us": "Contact Us"
+  "address": "Address",
+  "follow_us": "Follow us"
 }

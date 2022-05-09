@@ -6,6 +6,7 @@
 .home-services h1 {
   text-align: center;
   text-transform: uppercase;
+  color: #000;
 }
 
 .experience-container {
@@ -32,10 +33,13 @@
   letter-spacing: 10px;
 }
 .experience-details span {
-  color: #fff;
+  color: #000;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
+}
+.clients {
+  color: #000;
 }
 
 @media all and (max-width: 800px) {

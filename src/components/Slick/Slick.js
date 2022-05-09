@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "./Slick.css";
 
 function Slick() {
+  const { t } = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -18,7 +21,7 @@ function Slick() {
   return (
     <>
       <section className="home-slick">
-        <h1 data-aos="fade-up">FeedBack</h1>
+        <h1 data-aos="fade-up">{t("feedback")}</h1>
         <div className="separator" data-aos="fade-down"></div>
         <Slider {...settings} className="contain">
           <div className="slick-text">

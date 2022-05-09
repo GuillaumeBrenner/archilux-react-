@@ -2,8 +2,11 @@ import React from "react";
 import "../../App.css";
 import "./Services.css";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 export default function Services() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section>
@@ -11,7 +14,7 @@ export default function Services() {
           <div className="services-wrapper">
             <div className="services-top">
               <h1 className="section-title" data-aos="fade-down">
-                LOOK OUR BEST SERVICES
+              {t("service_title")}
               </h1>
               <div className="separator"></div>
               <p data-aos="zoom-in">
