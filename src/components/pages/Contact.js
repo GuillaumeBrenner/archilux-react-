@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className="info-wrapper">
                   <div className="information">
                     <img src="images/endroit.png" className="icon" alt="" />
-                    <p>Lomé, Hédzranawoé</p>
+                    <p>Angle rue 61 Hédzranawoé,Boulevard Haho</p>
                   </div>
                   <div className="information">
                     <img src="images/mail.png" className="icon" alt="" />
@@ -27,7 +27,7 @@ export default function Contact() {
                   </div>
                   <div className="information">
                     <img src="images/support2.png" className="icon" alt="" />
-                    <p>91 85 12 80 / 99 51 32 40</p>
+                    <p>+228 ( 91 85 12 80 / 99 51 32 40 )</p>
                   </div>
                 </div>
               </div>

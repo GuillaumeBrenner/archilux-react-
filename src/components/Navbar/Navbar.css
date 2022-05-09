@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: black;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -67,9 +67,12 @@
   height: 100%;
   font-size: 15px;
 }
+.nav-links-active {
+  border-bottom: 4px solid yellow;
+}
 
 .nav-links:hover {
-  border-bottom: 4px solid yellow;
+  color: yellow;
   transition: all 0.3s ease-out;
 }
 

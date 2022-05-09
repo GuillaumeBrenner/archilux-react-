@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import LangSelector from "../LangSelector/LangSelector";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,7 +29,7 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   const changeBackground = () => {
-    if (window.scrollY >= 250) {
+    if (window.scrollY >= 200) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -50,42 +51,60 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <NavLink
+                exact
+                to="/"
+                className="nav-links"
+                activeClassName="nav-links-active"
+                onClick={closeMobileMenu}
+              >
                 {t("home")}
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
+                exact
                 to="/services"
                 className="nav-links"
+                activeClassName="nav-links-active"
                 onClick={closeMobileMenu}
               >
                 SERVICES
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
+                exact
                 to="/projects"
                 className="nav-links"
+                activeClassName="nav-links-active"
                 onClick={closeMobileMenu}
               >
                 {t("project")}
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <NavLink
+                exact
+                to="/about"
+                className="nav-links"
+                activeClassName="nav-links-active"
+                onClick={closeMobileMenu}
+              >
                 {t("about")}
-              </Link>
+              </NavLink>
             </li>
 
             <li>
-              <Link
+              <NavLink
+                exact
                 to="/contact"
                 className="nav-links-mobile"
+                activeClassName="nav-links-active"
                 onClick={closeMobileMenu}
               >
                 {t("contactUs")}
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <Link to="/contact" className="btn-mobile">

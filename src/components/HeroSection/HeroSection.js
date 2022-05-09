@@ -10,6 +10,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
+      <img src="images/interior.jpg" alt="" />
       <h1 data-aos="fade-right">WHERE,</h1>
       <p
         data-aos="fade-left"
