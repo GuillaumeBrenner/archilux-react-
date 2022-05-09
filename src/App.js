@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,12 +11,24 @@ import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Loader from "./Loader";
 
 function App() {
+  const [isLoading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   useEffect(() => {
     AOS.init({ offset: 100, duration: 2000, easing: "ease" });
   }, []);
-  return (
+
+  return isLoading ? (
+    <Loader />
+  ) : (
     <>
       <Router>
         <Navbar />
