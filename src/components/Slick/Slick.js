@@ -51,13 +51,13 @@ function Slick() {
           <div className="slick-text">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores, velit alias eius non illum beatae atque repellat
-              ratione qui veritatis repudiandae adipisci maiores. At inventore
-              necessitatibus deserunt exercitationem cumque earum omnis ipsum
-              rem accusantium quis, quas quia, accusamus provident suscipit
-              magni! Expedita sint ad dolore, commodi labore nihil velit earum
-              ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
-              libero enim!
+              Asperiores, velit alias eius non illum beatae atque
+              repellatratione qui veritatis repudiandae adipisci maiores. At
+              inventore necessitatibus deserunt exercitationem cumque earum
+              omnis ipsum rem accusantium quis, quas quia, accusamus provident
+              suscipit magni! Expedita sint ad dolore, commodi labore nihil
+              velit earum ducimus nulla quae nostrum fugit aut, deserunt
+              reprehenderit libero enim!
             </p>
           </div>
         </Slider>

@@ -10,12 +10,14 @@ import Slick from "../Slick/Slick";
 function Home() {
   return (
     <>
-      <HeroSection />
-      <HomeAbout />
-      <HomeServices />
-      <Cards />
-      <Slick />
-      <Footer />
+      <div className="home">
+        <HeroSection />
+        <HomeAbout />
+        <HomeServices />
+        <Cards />
+        <Slick />
+        <Footer />
+      </div>
     </>
   );
 }

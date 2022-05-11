@@ -1,13 +1,14 @@
 .home-slick {
   padding: 5rem;
-  background: #F5F5F5;
-  /* background: url("/images/img9.jpg") center center/cover no-repeat; */
+  background: #e6e6e6;
 }
 
 .contain p {
   padding: 5rem;
   font-size: 20px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-slick h1 {
@@ -19,5 +20,43 @@
 .slick-text {
   border: 2px solid;
   background-color: #fff;
-  border-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+@media all and (max-width: 800px) {
+  .contain p {
+    padding: 0.8rem;
+    font-size: 12px;
+  }
+
+  .home-slick h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .slick-text p {
+    padding: 3px;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .home-slick {
+    padding: 2rem;
+  }
+
+  .home-slick h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .slick-text p {
+    padding: 3px;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: center;
+  }
 }

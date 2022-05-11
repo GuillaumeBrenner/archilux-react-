@@ -135,6 +135,10 @@
     border-bottom: none;
     border-radius: 0;
   }
+  .nav-links-active {
+    border-bottom: none;
+    color: yellow;
+  }
 
   .navbar-logo {
     position: absolute;
