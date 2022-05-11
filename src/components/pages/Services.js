@@ -162,7 +162,44 @@ export default function Services() {
           </div>
         </div>
       </section>
+
       <div className="person"></div>
+
+      <section className="partners">
+        <div className="partners-container">
+          <h1 data-aos="fade-down">{t("partners")}</h1>
+          <div className="separator" data-aos="fade-up"></div>
+          <div className="trademark">
+            <div className="partner-logo">
+              <img src="images/interior.jpg" alt="" />
+              <div className="middle">
+                <div className="partner-title">Parteners</div>
+              </div>
+            </div>
+
+            <div className="partner-logo">
+              <img src="images/interior.jpg" alt="" />
+              <div className="middle">
+                <div className="partner-title">Parteners</div>
+              </div>
+            </div>
+
+            <div className="partner-logo">
+              <img src="images/interior.jpg" alt="" />
+              <div className="middle">
+                <div className="partner-title">Parteners</div>
+              </div>
+            </div>
+
+            <div className="partner-logo">
+              <img src="images/interior.jpg" alt="" />
+              <div className="middle">
+                <div className="partner-title">Parteners</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </>

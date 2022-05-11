@@ -32,6 +32,7 @@
   "panel2_title": "REAL ESTATE",
   "panel3_title": "ARCHITECTURE",
   "panel4_title": "ATTEND & CONTROL",
+  "partners": "our partners",
 
   "projet_title": "",
   "all_tag": "all",
@@ -46,7 +47,7 @@
   "adress_below": "Contact us on the address below ",
   "networks": "Follow us on the networks",
 
-  "contact_us": "Contact Us",
+  "contact_us": "Write to Us",
   "name_input": "Name/Firstname",
   "phone_input": "Phone number",
   "send_btn": "Send",

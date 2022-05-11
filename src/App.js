@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    AOS.init({ offset: 100, duration: 2000, easing: "ease" });
+    AOS.init({ offset: 100, duration: 1500, easing: "ease-in-out" });
   }, []);
 
   return isLoading ? (
