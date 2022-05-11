@@ -119,11 +119,12 @@
 }
 .partners-container {
   margin-bottom: 100px;
-  background-color: #fff;
-  padding: 10px 0;
+  background: #e6e6e6;
+  padding: 3rem;
 }
 .partners-container h1{
   text-align: center;
+  font-size: 40px;
   text-transform: uppercase;
 }
 .partners-container .separator{
@@ -162,7 +163,7 @@
 }
 .middle .partner-title {
   position: relative;
-  color: #000;
+  color: #fff;
   font-size: 18px;
   padding: 0px 0 0 0px;
 }
