@@ -50,6 +50,9 @@ function Navbar() {
             <i className={click ? "close-menu" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <div className="menu-language">
+                <LangSelector />
+              </div>
             <li className="nav-item">
               <NavLink
                 exact

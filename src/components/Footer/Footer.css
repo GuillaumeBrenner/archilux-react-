@@ -116,6 +116,10 @@
   align-items: center;
   margin-bottom: 16px;
 }
+.app-name span {
+  color: yellow;
+  padding-left: 3px;
+}
 
 ul {
   list-style: none;

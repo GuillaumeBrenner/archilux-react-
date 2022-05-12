@@ -18,6 +18,7 @@ function LangSelector() {
           value="en"
           name="language"
           defaultChecked={selectedLang === "en"}
+          className="en"
         >
           EN
         </option>
@@ -26,6 +27,7 @@ function LangSelector() {
           value="fr"
           name="language"
           defaultChecked={selectedLang === "fr"}
+          className="fr"
         >
           FR
         </option>

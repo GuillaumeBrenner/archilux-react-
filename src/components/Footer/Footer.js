@@ -38,7 +38,7 @@ function Footer() {
                 data-aos-duration="3000"
               >
                 <Link to="/" className="app-name">
-                  ARCHILUX
+                  Archi<span>LUX</span>
                 </Link>
               </h2>
             </div>

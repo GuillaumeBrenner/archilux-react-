@@ -14,9 +14,6 @@
   box-shadow: 0 0 50px 0 rgb(0 0 0 / 50%);
   transition: 0.5s ease;
 }
-/* .navbar.active .navbar-logo {
-  color: #000;
-} */
 
 .navbar-container {
   display: flex;
@@ -90,7 +87,7 @@
 
 .language {
   position: relative;
-  left: 60px;
+  left: 50px;
 }
 
 @media screen and (max-width: 960px) {
@@ -204,7 +201,20 @@
     transition: 250ms;
   }
 
-  /* .language {
+  .language {
     display: none;
-  } */
+  }
+  .menu-language {
+    display: grid;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .menu-language {
+    display: none;
+  }
 }

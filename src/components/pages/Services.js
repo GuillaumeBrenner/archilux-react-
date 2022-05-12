@@ -173,28 +173,28 @@ export default function Services() {
             <div className="partner-logo">
               <img src="images/interior.jpg" alt="" />
               <div className="middle">
-                <div className="partner-title">Parteners</div>
+                <div className="partner-title">Partners</div>
               </div>
             </div>
 
             <div className="partner-logo">
               <img src="images/interior.jpg" alt="" />
               <div className="middle">
-                <div className="partner-title">Parteners</div>
+                <div className="partner-title">Partners</div>
               </div>
             </div>
 
             <div className="partner-logo">
               <img src="images/interior.jpg" alt="" />
               <div className="middle">
-                <div className="partner-title">Parteners</div>
+                <div className="partner-title">Partners</div>
               </div>
             </div>
 
             <div className="partner-logo">
               <img src="images/interior.jpg" alt="" />
               <div className="middle">
-                <div className="partner-title">Parteners</div>
+                <div className="partner-title">Partners</div>
               </div>
             </div>
           </div>
