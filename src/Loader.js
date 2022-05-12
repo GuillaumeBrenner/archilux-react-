@@ -4,7 +4,7 @@ import "./Loader.css";
 function Loader() {
   return (
     <section className="loading">
-      <div className="loading-2 loading-2--full-height"></div>
+      <div className="loader loading-2--full-height"></div>
 
       {/* <div class="blocks">
         <div class="block orange"></div>
