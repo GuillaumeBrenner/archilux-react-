@@ -1,10 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../App.css";
 import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 
 export default function Contact() {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const submit = (e) => {
+    e.preventDefault();
+    axios
+      .post("http://127.0.0.1:8000/send-mail", {
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+      })
+      .then((res) => {
+        console.log(res.mailData);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const handleSubmit = (e) => {
+    const newData = { ...data };
+    newData[e.target.name] = e.target.value;
+    setData(newData);
+    console.log(newData);
+  };
+
   const { t } = useTranslation();
 
   return (
@@ -59,7 +91,7 @@ export default function Contact() {
             </div>
 
             <div className="contact-form" data-aos="fade-up">
-              <form autoComplete="off">
+              <form autoComplete="off" onSubmit={(e) => submit(e)}>
                 <h3 className="title">{t("contact_us")}</h3>
                 <div className="input-container">
                   <input
@@ -67,6 +99,8 @@ export default function Contact() {
                     name="name"
                     placeholder={t("name_input")}
                     className="input"
+                    onChange={(e) => handleSubmit(e)}
+                    value={data.name}
                   />
                 </div>
                 <div className="input-container">
@@ -75,21 +109,28 @@ export default function Contact() {
                     name="email"
                     placeholder="Email"
                     className="input"
+                    onChange={(e) => handleSubmit(e)}
+                    value={data.email}
                   />
                 </div>
                 <div className="input-container">
                   <input
-                    type="tel"
+                    type="number"
                     name="phone"
                     placeholder={t("phone_input")}
                     className="input"
+                    onChange={(e) => handleSubmit(e)}
+                    value={data.phone}
                   />
                 </div>
                 <div className="input-container textarea">
                   <textarea
+                    type="text"
                     name="message"
                     placeholder="Message"
                     className="input"
+                    onChange={(e) => handleSubmit(e)}
+                    value={data.message}
                   ></textarea>
                 </div>
                 <input
