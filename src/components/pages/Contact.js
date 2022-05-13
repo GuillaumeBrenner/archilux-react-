@@ -13,7 +13,7 @@ export default function Contact() {
     message: "",
   });
 
-  const submit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     axios
       .post("http://127.0.0.1:8000/send-mail", {
@@ -30,7 +30,7 @@ export default function Contact() {
       });
   };
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
     const newData = { ...data };
     newData[e.target.name] = e.target.value;
     setData(newData);
@@ -91,7 +91,7 @@ export default function Contact() {
             </div>
 
             <div className="contact-form" data-aos="fade-up">
-              <form autoComplete="off" onSubmit={(e) => submit(e)}>
+              <form autoComplete="off" onSubmit={(e) => handleSubmit(e)}>
                 <h3 className="title">{t("contact_us")}</h3>
                 <div className="input-container">
                   <input
@@ -99,7 +99,7 @@ export default function Contact() {
                     name="name"
                     placeholder={t("name_input")}
                     className="input"
-                    onChange={(e) => handleSubmit(e)}
+                    onChange={(e) => handleChange(e)}
                     value={data.name}
                   />
                 </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                     name="email"
                     placeholder="Email"
                     className="input"
-                    onChange={(e) => handleSubmit(e)}
+                    onChange={(e) => handleChange(e)}
                     value={data.email}
                   />
                 </div>
@@ -119,17 +119,18 @@ export default function Contact() {
                     name="phone"
                     placeholder={t("phone_input")}
                     className="input"
-                    onChange={(e) => handleSubmit(e)}
+                    onChange={(e) => handleChange(e)}
                     value={data.phone}
                   />
                 </div>
                 <div className="input-container textarea">
                   <textarea
+                    maxLength={300}
                     type="text"
                     name="message"
                     placeholder="Message"
                     className="input"
-                    onChange={(e) => handleSubmit(e)}
+                    onChange={(e) => handleChange(e)}
                     value={data.message}
                   ></textarea>
                 </div>
@@ -137,6 +138,7 @@ export default function Contact() {
                   type="submit"
                   value={t("send_btn")}
                   className="btn-contact"
+                  // disabled={data.name.length < 1}
                 />
               </form>
             </div>
