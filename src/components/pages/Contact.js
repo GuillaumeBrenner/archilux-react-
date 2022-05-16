@@ -108,6 +108,7 @@ export default function Contact() {
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.name}
+                    required
                   />
                 </div>
                 <div className="input-container">
@@ -118,6 +119,7 @@ export default function Contact() {
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.email}
+                    required
                   />
                 </div>
                 <div className="input-container">
@@ -128,6 +130,7 @@ export default function Contact() {
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.phone}
+                    required
                   />
                 </div>
                 <div className="input-container textarea">
@@ -139,6 +142,7 @@ export default function Contact() {
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.message}
+                    required
                   ></textarea>
                 </div>
                 <input
