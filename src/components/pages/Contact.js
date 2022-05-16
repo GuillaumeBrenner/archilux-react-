@@ -4,6 +4,8 @@ import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const [data, setData] = useState({
@@ -23,10 +25,12 @@ export default function Contact() {
         message: data.message,
       })
       .then((res) => {
-        console.log("Succes", res.mailData);
+        console.log(res.mailData);
+        toast.success("Message sent successfully");
       })
       .catch((error) => {
         console.log(error);
+        toast.error("Please fill the inputs properly and retry");
       });
 
     setData({
@@ -151,6 +155,7 @@ export default function Contact() {
                   className="btn-contact"
                   // disabled={data.name.length < 1}
                 />
+                <ToastContainer />
               </form>
             </div>
           </div>

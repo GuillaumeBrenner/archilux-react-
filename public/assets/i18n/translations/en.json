@@ -51,6 +51,8 @@
   "name_input": "Name/Firstname",
   "phone_input": "Phone number",
   "send_btn": "Send",
+  "success_alert": "Message sent successfully",
+  "error_alert": "Please fill the inputs properly and retry",
 
   "news_letter": "Subscribe to our newsletter to receive the latest projects.",
   "unsubscribe": "You can unsubscribe at any time.",
