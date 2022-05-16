@@ -27,10 +27,13 @@ export default function Contact() {
       .then((res) => {
         console.log(res.mailData);
         toast.success("Message sent successfully");
+        toast.success("THANK YOU", { delay: 5000, autoClose: 3000 });
       })
       .catch((error) => {
         console.log(error);
-        toast.error("Please fill the inputs properly and retry");
+        toast.error(
+          "Please fill the inputs properly, Check your internet and retry"
+        );
       });
 
     setData({
@@ -46,6 +49,15 @@ export default function Contact() {
     newData[e.target.name] = e.target.value;
     setData(newData);
     console.log(newData);
+  };
+
+  let promise = () => {
+    const resolveAfter3Sec = new Promise((resolve) =>
+      setTimeout(resolve, 3000)
+    );
+    toast.promise(resolveAfter3Sec, {
+      pending: "In progress, Please Wait",
+    });
   };
 
   const { t } = useTranslation();
@@ -153,6 +165,7 @@ export default function Contact() {
                   type="submit"
                   value={t("send_btn")}
                   className="btn-contact"
+                  onClick={promise}
                   // disabled={data.name.length < 1}
                 />
                 <ToastContainer />
