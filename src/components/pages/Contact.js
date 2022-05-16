@@ -23,11 +23,18 @@ export default function Contact() {
         message: data.message,
       })
       .then((res) => {
-        console.log(res.mailData);
+        console.log("Succes", res.mailData);
       })
       .catch((error) => {
         console.log(error);
       });
+
+    setData({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
   };
 
   const handleChange = (e) => {
@@ -115,7 +122,7 @@ export default function Contact() {
                 </div>
                 <div className="input-container">
                   <input
-                    type="number"
+                    type="text"
                     name="phone"
                     placeholder={t("phone_input")}
                     className="input"
