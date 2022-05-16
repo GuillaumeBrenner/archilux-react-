@@ -251,6 +251,10 @@ textarea.input {
   .icon {
     width: 30px;
   }
+
+  .notification {
+    font-size: 15px;
+  }
 }
 
 @media all and (max-width: 500px) {

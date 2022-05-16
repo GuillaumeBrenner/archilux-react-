@@ -168,7 +168,9 @@ export default function Contact() {
                   onClick={promise}
                   // disabled={data.name.length < 1}
                 />
-                <ToastContainer />
+                <div className="notification Toastify__toast-container">
+                  <ToastContainer />
+                </div>
               </form>
             </div>
           </div>
