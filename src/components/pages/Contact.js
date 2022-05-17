@@ -166,7 +166,7 @@ export default function Contact() {
                   value={t("send_btn")}
                   className="btn-contact"
                   onClick={promise}
-                  // disabled={data.name.length < 1}
+                  disabled={data.name.length < 1}
                 />
                 <div className="notification Toastify__toast-container">
                   <ToastContainer />
