@@ -146,7 +146,6 @@ export default function Contact() {
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.phone}
-                    required
                   />
                 </div>
                 <div className="input-container textarea">
