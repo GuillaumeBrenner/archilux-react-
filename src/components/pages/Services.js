@@ -171,30 +171,30 @@ export default function Services() {
           <div className="separator" data-aos="fade-up"></div>
           <div className="trademark">
             <div className="partner-logo">
-              <img src="images/interior.jpg" alt="" />
+              <img src="images/R.png" alt="" />
               <div className="middle">
-                <div className="partner-title">Partners</div>
+                <div className="partner-title">APPLE</div>
               </div>
             </div>
 
             <div className="partner-logo">
-              <img src="images/interior.jpg" alt="" />
+              <img src="images/google.png" alt="" />
               <div className="middle">
-                <div className="partner-title">Partners</div>
+                <div className="partner-title">GOOGLE</div>
               </div>
             </div>
 
             <div className="partner-logo">
-              <img src="images/interior.jpg" alt="" />
+              <img src="images/git.png" alt="" />
               <div className="middle">
-                <div className="partner-title">Partners</div>
+                <div className="partner-title">GITHUB</div>
               </div>
             </div>
 
             <div className="partner-logo">
-              <img src="images/interior.jpg" alt="" />
+              <img src="images/angular.png" alt="" />
               <div className="middle">
-                <div className="partner-title">Partners</div>
+                <div className="partner-title">ANGULAR</div>
               </div>
             </div>
           </div>

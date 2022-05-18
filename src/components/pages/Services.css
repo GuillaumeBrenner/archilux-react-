@@ -122,12 +122,12 @@
   background: #e6e6e6;
   padding: 3rem;
 }
-.partners-container h1{
+.partners-container h1 {
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
 }
-.partners-container .separator{
+.partners-container .separator {
   margin-bottom: 50px;
 }
 .trademark {
@@ -142,30 +142,31 @@
   position: relative;
 }
 .partner-logo img {
-  opacity: 1;
+  opacity: 0.3;
   height: auto;
   transition: 0.5s ease;
 }
+.partner-logo:hover img {
+  opacity: 1;
+}
+
 .middle {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.partner-logo:hover img {
-  opacity: 0.6;
-}
+
 .partner-logo:hover .middle {
   opacity: 1;
 }
 .middle .partner-title {
   position: relative;
-  color: #fff;
-  font-size: 18px;
-  padding: 0px 0 0 0px;
+  color: #000;
+  font-size: 25px;
 }
 
 @media all and (max-width: 1200px) {
