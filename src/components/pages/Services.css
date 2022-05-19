@@ -170,3 +170,16 @@
     align-items: center;
   }
 }
+
+@media all and (max-width: 800px) {
+  .partners-wrapper ul {
+    display: block;
+    position: relative;
+  }
+  .partners-list > li {
+    width: 160px;
+    margin: 0px 100px;
+    display: inline-block;
+    opacity: 0.5;
+  }
+}

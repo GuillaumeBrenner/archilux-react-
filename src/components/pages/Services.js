@@ -169,8 +169,8 @@ export default function Services() {
         <div className="partners-container">
           <h1 data-aos="fade-down">{t("partners")}</h1>
           <div className="separator" data-aos="fade-up"></div>
-          <div class="partners-wrapper">
-            <ul class="partners-list">
+          <div className="partners-wrapper">
+            <ul className="partners-list">
               <li>
                 <img alt="brand" src="images/R.png" />
               </li>
