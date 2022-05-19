@@ -115,12 +115,16 @@
 }
 
 .partners {
-  padding: 10px 0;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 .partners-container {
-  margin-bottom: 100px;
+  position: relative;
   background: #e6e6e6;
   padding: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
 }
 .partners-container h1 {
   text-align: center;
@@ -130,43 +134,33 @@
 .partners-container .separator {
   margin-bottom: 50px;
 }
-.trademark {
-  display: flex;
-}
-.trademark img {
-  display: block;
-  margin: auto;
-  width: 50%;
-}
-.partner-logo {
-  position: relative;
-}
-.partner-logo img {
-  opacity: 0.3;
-  height: auto;
-  transition: 0.5s ease;
-}
-.partner-logo:hover img {
-  opacity: 1;
-}
-
-.middle {
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.partners-wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
-
-.partner-logo:hover .middle {
+.partners-wrapper ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.partners-list > li {
+  width: 160px;
+  margin: 0px 100px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.partners-list > li:hover {
   opacity: 1;
 }
-.middle .partner-title {
-  position: relative;
-  color: #000;
-  font-size: 25px;
+.partners-list > li > img {
+  margin: auto;
 }
 
 @media all and (max-width: 1200px) {
@@ -174,24 +168,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .partner-logo .middle {
-    display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .trademark img {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .trademark img {
-    width: 70%;
-  }
-  .partners {
-    padding: 5px 0;
   }
 }

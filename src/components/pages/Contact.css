@@ -138,14 +138,14 @@ form {
   color: #fff;
   font-size: 20px;
   line-height: 1.625em;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: "Poppins", Sans-serif;
 }
 
 textarea.input {
   padding: 0.8rem 1.2rem;
-  min-height: 150px;
-  border-radius: 10px;
+  min-height: 190px;
+  border-radius: 5px;
   resize: none;
   overflow-y: auto;
 }
