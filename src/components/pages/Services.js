@@ -165,26 +165,38 @@ export default function Services() {
 
       <div className="person"></div>
 
-      <section className="partners">
+      <section className="partners-section">
         <div className="partners-container">
           <h1 data-aos="fade-down">{t("partners")}</h1>
           <div className="separator" data-aos="fade-up"></div>
-          <div className="partners-wrapper">
-            <ul className="partners-list">
-              <li>
-                <img alt="brand" src="images/R.png" />
-              </li>
-              <li>
-                <img alt="brand" src="images/google.png" />
-              </li>
-
-              <li>
-                <img alt="brand" src="images/angular.png" />
-              </li>
-              <li>
-                <img alt="brand" src="images/git.png" />
-              </li>
-            </ul>
+          <div className="sponsor__container grid">
+            <div className="partners__content">
+              <img src="images/angular.png" alt="" className="partners__img" />
+            </div>
+            <div className="partners__content">
+              <img
+                src="images/sponsors2.png"
+                alt=""
+                className="partners__img"
+              />
+            </div>
+            <div className="partners__content">
+              <img src="images/google.png" alt="" className="partners__img" />
+            </div>
+            <div className="partners__content">
+              <img
+                src="images/sponsors4.png"
+                alt=""
+                className="partners__img"
+              />
+            </div>
+            <div className="partners__content">
+              <img
+                src="images/sponsors5.png"
+                alt=""
+                className="partners__img"
+              />
+            </div>
           </div>
         </div>
       </section>

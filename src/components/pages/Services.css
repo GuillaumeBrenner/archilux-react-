@@ -20,7 +20,9 @@
 }
 
 .panel-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .panel {
@@ -111,6 +113,8 @@
 .person {
   height: 400px;
   margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
   background: url("/images/interior.jpg") center center/cover;
 }
 
@@ -122,8 +126,8 @@
   position: relative;
   background: #e6e6e6;
   padding: 3rem;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-bottom: 100px;
 }
 .partners-container h1 {
@@ -134,52 +138,44 @@
 .partners-container .separator {
   margin-bottom: 50px;
 }
-.partners-wrapper {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+
+.sponsor__container {
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  justify-items: center;
+  row-gap: 3.5rem;
 }
-.partners-wrapper ul {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+
+.partners__content:hover .partners__img {
+  filter: invert(0);
 }
-.partners-list > li {
-  width: 160px;
-  margin: 0px 100px;
-  display: inline-block;
-  opacity: 0.5;
+
+.partners__img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 120px;
+  filter: invert(0.5);
+  transition: 0.3s;
 }
-.partners-list > li:hover {
-  opacity: 1;
+.partners-section {
+  padding: 3.5rem 0 4.5rem;
 }
-.partners-list > li > img {
-  margin: auto;
+.grid {
+  display: grid;
+  gap: 1.5rem;
 }
 
 @media all and (max-width: 1200px) {
   .panel-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
 
-@media all and (max-width: 800px) {
-  .partners-wrapper ul {
-    display: block;
-    position: relative;
-  }
-  .partners-list > li {
-    width: 160px;
-    margin: 0px 100px;
-    display: inline-block;
-    opacity: 0.5;
+@media all and (max-width: 650px) {
+  .panel-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 }
