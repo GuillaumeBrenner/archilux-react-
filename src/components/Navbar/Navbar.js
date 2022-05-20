@@ -50,9 +50,6 @@ function Navbar() {
             <i className={click ? "close-menu" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <div className="menu-language">
-                <LangSelector />
-              </div>
             <li className="nav-item">
               <NavLink
                 exact
@@ -98,7 +95,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li>
+            <li className="nav-item">
               <NavLink
                 exact
                 to="/contact"
@@ -109,6 +106,10 @@ function Navbar() {
                 {t("contactUs")}
               </NavLink>
             </li>
+
+            <div className="menu-language">
+              <LangSelector />
+            </div>
           </ul>
           <Link to="/contact" className="btn-mobile">
             {button && (
