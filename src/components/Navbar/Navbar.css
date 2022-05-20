@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@
   z-index: 999;
 }
 .navbar.active {
-  background: linear-gradient(90deg, rgb(66, 29, 139) 0%, rgb(0, 75, 97) 100%);
+  background: #000;
   box-shadow: 0 0 50px 0 rgb(0 0 0 / 50%);
   transition: 0.5s ease;
 }
@@ -36,7 +37,7 @@
 }
 .navbar-logo span {
   color: yellow;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: #000;
   padding-left: 3px;
 }
 

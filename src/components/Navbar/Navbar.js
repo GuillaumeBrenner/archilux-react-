@@ -29,7 +29,7 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   function changeBackground() {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 50) {
       setNavbar(true);
     } else {
       setNavbar(false);
