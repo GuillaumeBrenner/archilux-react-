@@ -22,7 +22,9 @@ function Footer() {
                 type="email"
                 placeholder={t("mail")}
               />
-              <Button buttonStyle="btn--outline">{t("subscribe_button")}</Button>
+              <Button buttonStyle="btn--outline">
+                {t("subscribe_button")}
+              </Button>
             </form>
           </div>
         </section>
@@ -83,6 +85,10 @@ function Footer() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="footer_copyright">
+          <p className="footer__copy">2022 &#169;Archilux.com</p>
         </div>
       </div>
 

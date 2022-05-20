@@ -30,7 +30,7 @@ function HomeAbout() {
               <img src="images/projet3.jpg" alt="" />
               <div className="image-text">
                 <h3>Office</h3>
-                <p>Ikeja, Lagos</p>
+                <p>Hédrzanawwoé, Lomé</p>
               </div>
             </div>
           </div>

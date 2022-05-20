@@ -27,7 +27,6 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
@@ -97,7 +96,7 @@
   }
   .navbar-logo {
     font-size: 2rem;
-    letter-spacing: 0px;
+    letter-spacing: 3px;
   }
 
   .nav-menu {
@@ -105,7 +104,7 @@
     flex-direction: column;
     width: 100%;
     height: 90vh;
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: -100%;
     opacity: 1;
@@ -120,8 +119,14 @@
     z-index: 1;
   }
 
+  /* .nav-item {
+    position: relative;
+    top: -100px;
+  } */
+
   .nav-links {
     text-align: center;
+    font-size: 18px;
     padding: 2rem;
     width: 100%;
     display: table;
@@ -186,7 +191,7 @@
     text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 50%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;

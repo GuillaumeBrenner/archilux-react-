@@ -189,6 +189,19 @@ ul {
   background-color: #ffffff;
 }
 
+.footer_copyright {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #24262b;
+  margin-top: 60px;
+}
+
+.footer__copy {
+  font-size: 20px;
+  color: #bbbb;
+}
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;
@@ -217,5 +230,11 @@ ul {
   .row {
     margin-top: -50px;
     margin-left: 15px;
+  }
+
+  .footer_copyright {
+    margin-top: 0px;
+    text-align: start;
+    margin-left: 30px;
   }
 }
