@@ -45,7 +45,6 @@
   display: block;
   margin-bottom: 25px;
   margin-top: 20px;
-  /* color: crimson; */
   font-size: 25px;
   font-weight: 700;
   text-align: center;
@@ -118,17 +117,63 @@
   background: url("/images/interior.jpg") center center/cover;
 }
 
-.partners {
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
+.skills-container {
+  text-align: center;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  overflow: hidden;
 }
+.bd-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5rem;
+  margin-top: 50px;
+}
+
+.skills-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 25px rgba(14, 36, 49, 0.15);
+}
+
+.skills-names {
+  display: flex;
+  align-items: center;
+}
+.skills-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  height: 0.35rem;
+  border-radius: 0.5rem;
+  z-index: -10;
+}
+.skills-engineering {
+  width: 25%;
+}
+.skills__realEstate {
+  width: 10%;
+}
+.skills__architecture {
+  width: 55%;
+}
+.skills__attend {
+  width: 10%;
+}
+
 .partners-container {
   position: relative;
   background: #e6e6e6;
   padding: 3rem;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 100px;
+  margin-top: 55px;
 }
 .partners-container h1 {
   text-align: center;
@@ -164,11 +209,36 @@
   gap: 1.5rem;
 }
 
+.h-line {
+  position: relative;
+}
+.line1 {
+  bottom: 50px;
+}
+
+.h-line::before {
+  position: absolute;
+  content: "";
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 6rem;
+  background-color: crimson;
+}
+
 @media all and (max-width: 1200px) {
   .panel-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+
+  .bd-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 20px;
   }
 }
 
@@ -177,5 +247,16 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+  }
+
+  .bd-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin: 20px;
+  }
+
+  .skills-data {
+    width: 300px;
   }
 }

@@ -163,7 +163,59 @@ export default function Services() {
         </div>
       </section>
 
-      <div className="person"></div>
+      <div className="h-line line1"></div>
+      {/* <div className="person"></div> */}
+
+      <section className="skills-section">
+        <h1 class="section-title">Skills</h1>
+        <div className="separator"></div>
+        <div class="skills-container bd-grid">
+          <div>
+            <div className="skills-data">
+              <div className="skills-names">
+                <span className="skills-name">{t("panel1_title")}</span>
+              </div>
+              <div className="skills-bar skills-engineering"></div>
+              <div>
+                <span className="skills__percentage">25%</span>
+              </div>
+            </div>
+            <div className="skills-data">
+              <div className="skills-name">
+                <span className="skills__name">{t("panel2_title")}</span>
+              </div>
+              <div className="skills-bar skills__realEstate"></div>
+              <div>
+                <span className="skills__percentage">10%</span>
+              </div>
+            </div>
+            <div className="skills-data">
+              <div className="skills__names">
+                <span className="skills__name">{t("panel3_title")}</span>
+              </div>
+              <div className="skills-bar skills__architecture"></div>
+              <div>
+                <span className="skills__percentage">55%</span>
+              </div>
+            </div>
+            <div className="skills-data">
+              <div className="skills__names">
+                <span className="skills-name">{t("panel4_title")}</span>
+              </div>
+              <div className="skills-bar skills__attend"></div>
+              <div>
+                <span className="skills__percentage">10%</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="skills-img">
+            <img src="images/projet2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div className="h-line"></div>
 
       <section className="partners-section">
         <div className="partners-container">
