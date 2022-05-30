@@ -37,7 +37,7 @@ export default function About() {
         </div>
       </section>
 
-      <div className="h-line line1"></div>
+      <div className="h-line"></div>
 
       <section>
         <h1 className="section-title" data-aos="fade-up">
@@ -89,11 +89,11 @@ export default function About() {
         </div>
       </section>
 
-      <div className="h-line line1"></div>
+      <div className="h-line"></div>
 
       <section className="partners-section">
         <div className="partners-container">
-          <h1 data-aos="fade-down">{t("partners")}</h1>
+          <h1 data-aos="fade-down">{t("prize")}</h1>
           <div className="separator" data-aos="fade-up"></div>
           <div className="sponsor__container grid">
             <div className="partners__content">

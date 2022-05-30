@@ -167,7 +167,7 @@ export default function Services() {
       {/* <div className="person"></div> */}
 
       <section className="skills-section">
-        <h1 class="section-title">Skills</h1>
+        <h1 class="section-title">{t("stats")}</h1>
         <div className="separator"></div>
         <div class="skills-container bd-grid">
           <div>
