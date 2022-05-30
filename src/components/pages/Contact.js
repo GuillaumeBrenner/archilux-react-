@@ -4,7 +4,7 @@ import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
@@ -27,7 +27,10 @@ export default function Contact() {
       .then((res) => {
         console.log(res.mailData);
         toast.success("Message sent successfully");
-        toast.success("THANK YOU", { delay: 5000, autoClose: 3000 });
+        toast.success("THANK YOU, YOU WILL HEAR FROM US SOON", {
+          delay: 5000,
+          autoClose: 3000,
+        });
       })
       .catch((error) => {
         console.log(error);
@@ -65,9 +68,6 @@ export default function Contact() {
   return (
     <>
       <section className="contact-section">
-        <div className="notification Toastify__toast-container">
-          <ToastContainer />
-        </div>
         <div className="contact-container">
           <div className="form-wrapper">
             <div className="contact-info" data-aos="fade-down">

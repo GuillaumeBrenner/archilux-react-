@@ -46,6 +46,15 @@ function Footer() {
     console.log(newLetter);
   };
 
+  let promise = () => {
+    const resolveAfter3Sec = new Promise((resolve) =>
+      setTimeout(resolve, 3000)
+    );
+    toast.promise(resolveAfter3Sec, {
+      pending: "In progress, Please Wait",
+    });
+  };
+
   const { t } = useTranslation();
 
   return (
@@ -64,7 +73,7 @@ function Footer() {
                 onChange={(e) => handleChange(e)}
                 value={newsletter.email}
               />
-              <Button buttonStyle="btn--outline">
+              <Button buttonStyle="btn--outline" onClick={promise}>
                 {t("subscribe_button")}
               </Button>
             </form>

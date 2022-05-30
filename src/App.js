@@ -12,6 +12,7 @@ import Projects from "./components/pages/Projects";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Loader from "./Loader";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -30,6 +31,9 @@ function App() {
     <Loader />
   ) : (
     <>
+      <div className="notification Toastify__toast-container">
+        <ToastContainer />
+      </div>
       <Router>
         <Navbar />
         <Switch>
