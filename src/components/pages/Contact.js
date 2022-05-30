@@ -65,6 +65,9 @@ export default function Contact() {
   return (
     <>
       <section className="contact-section">
+        <div className="notification Toastify__toast-container">
+          <ToastContainer />
+        </div>
         <div className="contact-container">
           <div className="form-wrapper">
             <div className="contact-info" data-aos="fade-down">
@@ -167,9 +170,6 @@ export default function Contact() {
                   onClick={promise}
                   disabled={data.name.length < 1}
                 />
-                <div className="notification Toastify__toast-container">
-                  <ToastContainer />
-                </div>
               </form>
             </div>
           </div>

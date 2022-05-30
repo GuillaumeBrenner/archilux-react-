@@ -1,11 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Footer.css";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Footer() {
+  const [newsletter, setNewsletter] = useState({
+    email: "",
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("http://127.0.0.1:8000/newsletter", {
+        email: newsletter.email,
+      })
+      .then((res) => {
+        console.log(res.newsletterData);
+        toast.success("THANK YOU FOR SUBSCRIBING TO OUR NEWSLETTER");
+        toast.success("YOU WILL HEAR FROM US SOON.", {
+          delay: 5000,
+          autoClose: 3000,
+        });
+      })
+      .catch((error) => {
+        console.log(error);
+        toast.error(
+          "Please fill the inputs properly, Check your internet and retry"
+        );
+      });
+
+    setNewsletter({
+      email: "",
+    });
+  };
+
+  const handleChange = (e) => {
+    const newLetter = { ...newsletter };
+    newLetter[e.target.name] = e.target.value;
+    setNewsletter(newLetter);
+    console.log(newLetter);
+  };
+
   const { t } = useTranslation();
 
   return (
@@ -15,12 +55,14 @@ function Footer() {
           <p className="footer-subscription-heading">{t("news_letter")}</p>
           <p className="footer-subscription-text">{t("unsubscribe")}</p>
           <div className="input-areas">
-            <form>
+            <form onSubmit={(e) => handleSubmit(e)}>
               <input
                 className="footer-input"
                 name="email"
                 type="email"
                 placeholder={t("mail")}
+                onChange={(e) => handleChange(e)}
+                value={newsletter.email}
               />
               <Button buttonStyle="btn--outline">
                 {t("subscribe_button")}
