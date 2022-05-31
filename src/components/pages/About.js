@@ -22,7 +22,9 @@ export default function About() {
           </div>
           <div className="col-right" data-aos="fade-left">
             {/* <h1 className="about-title">HISTOIRE</h1> */}
-            <h2>{t("architecture")}-{t("urbanisme")}-{t("engineering")}</h2>
+            <h2>
+              {t("architecture")}-{t("urbanisme")}-{t("engineering")}
+            </h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
@@ -33,6 +35,28 @@ export default function About() {
               ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
               libero enim!
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="quote">
+        <h1 className="section-title" data-aos="fade-down">
+          <img src="images/guillemet.png" alt="img" />
+        </h1>
+        <div className="separator"></div>
+        <div className="about-container">
+          <div data-aos="fade-left">
+            <p className="quotation">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Asperiores, velit alias eius non illum beatae atque repellat
+              ratione qui veritatis repudiandae adipisci maiores. At inventore
+              necessitatibus deserunt exercitationem cumque earum omnis ipsum
+              rem accusantium quis, quas quia, accusamus provident suscipit
+              magni! Expedita sint ad dolore, commodi labore nihil velit earum
+              ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
+              libero enim!
+            </p>
+            <h1>- Le Directeur Général</h1>
           </div>
         </div>
       </section>
@@ -54,7 +78,9 @@ export default function About() {
             <h2 className="about-title">
               Edmond F. K. <span>AZIAGBA</span>
             </h2>
-            <h2>{t("architect")} - {t("urban")} DEIAU</h2>
+            <h2>
+              {t("architect")} - {t("urban")} DEIAU
+            </h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
@@ -78,7 +104,9 @@ export default function About() {
             <h2 className="about-title">
               <span>David</span> MENSANH
             </h2>
-            <h2>{t("architect")} - {t("engineer")}</h2>
+            <h2>
+              {t("architect")} - {t("engineer")}
+            </h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat

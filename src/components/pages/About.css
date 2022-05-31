@@ -21,6 +21,18 @@
   bottom: -10px;
 }
 
+.quote {
+  margin-bottom: 15px;
+}
+.quote img {
+  width: 70px;
+}
+.quotation {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
 .col-left {
   width: 600px;
   height: 400px;
