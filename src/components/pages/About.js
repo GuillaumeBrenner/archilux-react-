@@ -40,12 +40,12 @@ export default function About() {
       </section>
 
       <section className="quote">
-        <h1 className="section-title" data-aos="fade-down">
-          <img src="images/guillemet.png" alt="img" />
+        <h1 className="section-title guillemet" data-aos="zoom-in">
+          ,,
         </h1>
         <div className="separator"></div>
         <div className="about-container">
-          <div data-aos="fade-left">
+          <div data-aos="zoom-in">
             <p className="quotation">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
@@ -56,12 +56,12 @@ export default function About() {
               ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
               libero enim!
             </p>
-            <h1>- Le Directeur Général</h1>
+            <h1>-- Le Directeur Général --</h1>
           </div>
         </div>
       </section>
 
-      <div className="h-line"></div>
+      <div className="h-line team"></div>
 
       <section>
         <h1 className="section-title" data-aos="fade-up">

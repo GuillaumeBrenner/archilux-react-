@@ -24,13 +24,18 @@
 .quote {
   margin-bottom: 15px;
 }
-.quote img {
-  width: 70px;
+.quote .guillemet {
+  font-size: 150px;
+  color: crimson;
+  margin-top: -40px;
 }
 .quotation {
   font-size: 1.5em;
   line-height: 1.2em;
   margin-bottom: 20px;
+}
+.team {
+  margin-bottom: 100px;
 }
 
 .col-left {
@@ -110,5 +115,9 @@
     text-align: center;
     padding: 10px;
     margin-top: 50px;
+  }
+
+  .quote {
+    margin-top: -150px;
   }
 }
