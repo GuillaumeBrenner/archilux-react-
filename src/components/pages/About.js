@@ -15,14 +15,14 @@ export default function About() {
         </h1>
         <div className="separator"></div>
         <div className="about-container">
-          <div className="col-left" data-aos="fade-right">
+          <div className="col-left">
             <div className="about-img">
               <img src="images/img-history.jpg" alt="img" />
             </div>
           </div>
           <div className="col-right" data-aos="fade-left">
             {/* <h1 className="about-title">HISTOIRE</h1> */}
-            <h2>Front End Developer</h2>
+            <h2>{t("architecture")}-{t("urbanisme")}-{t("engineering")}</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
@@ -45,14 +45,16 @@ export default function About() {
         </h1>
         <div className="separator"></div>
         <div className="about-container">
-          <div className="col-left" data-aos="fade-right">
+          <div className="col-left">
             <div className="about-img">
               <img src="images/projet2.jpg" alt="img" />
             </div>
           </div>
           <div className="col-right" data-aos="fade-left">
-            <h2 className="about-title">HOUNKPATI</h2>
-            <h2>Front End Developer</h2>
+            <h2 className="about-title">
+              Edmond F. K. <span>AZIAGBA</span>
+            </h2>
+            <h2>{t("architect")} - {t("urban")} DEIAU</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
@@ -67,14 +69,16 @@ export default function About() {
         </div>
 
         <div className="about-container">
-          <div className="col-left" data-aos="fade-right">
+          <div className="col-left">
             <div className="about-img">
               <img src="images/projet2.jpg" alt="img" />
             </div>
           </div>
           <div className="col-right" data-aos="fade-left">
-            <h2 className="about-title">MENSANH</h2>
-            <h2>Front End Developer</h2>
+            <h2 className="about-title">
+              <span>David</span> MENSANH
+            </h2>
+            <h2>{t("architect")} - {t("engineer")}</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat

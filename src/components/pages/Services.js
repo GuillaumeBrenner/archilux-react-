@@ -167,7 +167,9 @@ export default function Services() {
       {/* <div className="person"></div> */}
 
       <section className="skills-section">
-        <h1 class="section-title">{t("stats")}</h1>
+        <h1 class="section-title" data-aos="zoom-in">
+          {t("stats")}
+        </h1>
         <div className="separator"></div>
         <div class="skills-container bd-grid">
           <div>
@@ -209,7 +211,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="skills-img">
+          <div className="skills-img" data-aos="fade-left">
             <img src="images/projet2.jpg" alt="" />
           </div>
         </div>

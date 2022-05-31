@@ -94,6 +94,7 @@ function Footer() {
                   Archi<span>LUX</span>
                 </Link>
               </h2>
+              <div className="slogan">ARCHITECTURE-URBANISME-INGENIERIE</div>
             </div>
             <div className="footer-col">
               <h4>{t("company")}</h4>
@@ -139,7 +140,7 @@ function Footer() {
         </div>
 
         <div className="footer_copyright">
-          <p className="footer__copy">2022 &#169;Archilux.com</p>
+          <p className="footer__copy">2022 &#169; ArchiLUX</p>
         </div>
       </div>
 

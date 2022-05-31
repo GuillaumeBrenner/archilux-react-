@@ -120,6 +120,13 @@
   color: yellow;
   padding-left: 3px;
 }
+.slogan {
+  font-family: "Roboto", Sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-left: -45px;
+}
 
 ul {
   list-style: none;
@@ -236,5 +243,14 @@ ul {
     margin-top: 0px;
     text-align: start;
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .slogan {
+    margin-left: 0px;
+  }
+  .app-name {
+    margin-left: 0px;
   }
 }

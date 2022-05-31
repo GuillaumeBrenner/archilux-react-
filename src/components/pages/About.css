@@ -31,6 +31,9 @@
   text-align: left;
   padding: 30px;
 }
+.col-right span {
+  color: #e91e63;
+}
 .col-right h2 {
   font-size: 1.8rem;
   font-weight: 500;

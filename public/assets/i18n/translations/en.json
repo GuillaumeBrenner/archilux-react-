@@ -41,8 +41,14 @@
   "exterior_tag": "exterior",
   "house_tag": "house",
 
-  "history": "HISTORY",
+  "history": "VISION",
+  "architecture": "ARCHITECTURE",
+  "urbanisme": "URBAN PLAN",
+  "engineering": "ENGINEERING",
   "team": "TEAM",
+  "architect": "Architect",
+  "urban": "Urban planning",
+  "engineer": "Engineer",
   "prize": "Prizes and Rewards",
 
   "lets_connect": "Let's Connect",
