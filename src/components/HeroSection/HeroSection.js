@@ -10,13 +10,14 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <img src="images/interior.jpg" alt="" />
-      <h1 data-aos="fade-right">{t("hero_title1")},</h1>
+      <h1 data-aos="fade-right">{t("hero_title1")}</h1>
       <p
         data-aos="fade-left"
         data-aos-duration="3000"
         data-aos-easing="ease-in"
       >
-        {t("hero_title2")} <span>{t("lux")}</span>{t("ury")}.
+        {t("hero_title2")} <span>{t("lux")}</span>
+        {t("ury")}.
       </p>
       <div className="hero-btns" data-aos="fade-up">
         <Link to="/about">

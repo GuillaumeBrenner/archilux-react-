@@ -45,8 +45,8 @@ export default function About() {
         </h1>
         <div className="separator"></div>
         <div className="about-container">
-          <div data-aos="zoom-in">
-            <p className="quotation">
+          <div className="quotation" data-aos="zoom-in">
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Asperiores, velit alias eius non illum beatae atque repellat
               ratione qui veritatis repudiandae adipisci maiores. At inventore
@@ -54,9 +54,9 @@ export default function About() {
               rem accusantium quis, quas quia, accusamus provident suscipit
               magni! Expedita sint ad dolore, commodi labore nihil velit earum
               ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
-              libero enim!
+              libero!
             </p>
-            <h1>-- Le Directeur Général --</h1>
+            <h1>- Le Directeur Général -</h1>
           </div>
         </div>
       </section>

@@ -34,6 +34,7 @@
   display: flex;
   align-items: center;
   letter-spacing: 5px;
+  font-family: "Jost", sans-serif;
 }
 .navbar-logo span {
   color: yellow;

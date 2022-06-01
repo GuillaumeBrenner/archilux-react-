@@ -17,13 +17,13 @@ function Cards() {
           <ul className="cards__items" data-aos="fade-up">
             <CardItem
               src="images/img-1.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Card Texte"
               label="Villa"
               path="/projects"
             />
             <CardItem
               src="images/interior1.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Card Texte"
               label="Luxury"
               path="/projects"
             />
@@ -31,19 +31,19 @@ function Cards() {
           <ul className="cards__items" data-aos="fade-down">
             <CardItem
               src="images/interior3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              text="Maison d'hotes"
               label="House"
               path="/projects"
             />
             <CardItem
               src="images/exterior1.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="Les Résidences des milliadaires"
               label="Piscine"
               path="/projects"
             />
             <CardItem
               src="images/exterior2.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Places de divertissement à la plage"
               label="Terasse"
               path="/projects"
             />

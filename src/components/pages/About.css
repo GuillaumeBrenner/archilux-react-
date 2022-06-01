@@ -28,11 +28,17 @@
   font-size: 150px;
   color: crimson;
   margin-top: -40px;
+  font-family: "Fuggles", cursive;
 }
-.quotation {
+.quotation p {
   font-size: 1.5em;
   line-height: 1.2em;
   margin-bottom: 20px;
+  text-align: justify;
+}
+.quotation h1 {
+  font-size: 2.5em;
+  font-family: "Fuggles", cursive;
 }
 .team {
   margin-bottom: 100px;
