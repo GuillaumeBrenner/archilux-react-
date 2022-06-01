@@ -68,8 +68,8 @@ export default function Projects() {
     <>
       <div className="tags" handlesetag={tag}>
         <div className="projects-top">
-          <h1 className="projects-title" data-aos="fade-down">
-            {t("project")}
+          <h1 className="section-title" data-aos="fade-down">
+            {t("projet_title")}
           </h1>
           <div className="separator"></div>
         </div>

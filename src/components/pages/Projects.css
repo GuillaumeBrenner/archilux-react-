@@ -2,6 +2,7 @@
   text-align: center;
   padding: 50px 0px;
   font-size: 30px;
+  margin-top: -50px;
 }
 
 .tag {
@@ -63,8 +64,11 @@
 }
 
 @media all and (max-width: 650px) {
+  .section-title {
+    font-size: 35px;
+  }
   .tag {
-    font-size: 18px;
+    font-size: 15px;
   }
   .project-container {
     width: 100%;
