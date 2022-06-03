@@ -1,0 +1,72 @@
+{
+  "home": "ACCEUIL",
+  "services": "SERVICES",
+  "project": "PROJETS",
+  "about": "AGENCE",
+  "contactUs": "NOUS CONTACTER",
+
+  "hero_title1": "ARCHITECTES DEVELOPPEURS",
+  "hero_title2": "Nous construisons",
+  "lux": "le LUX",
+  "ury": "e",
+  "about_us": "A PROPOS DE NOUS",
+  "our_projects": "NOS PROJETS",
+
+  "more_than": "PLUS Q'UNE AGENCE D'ARCHITECTURE",
+  "who_we_are": "QUI SOMMES-NOUS?",
+  "philosophy": "NOTRE PHILOSOPHIE",
+  "how_we_work": "COMMENT NOUS TRAVAILLONS",
+
+  "experience": "expérience",
+  "years": "années d'expérience",
+  "finished": "projets finis",
+  "clients": "clients heureux",
+
+  "feedback": "CE QUE DISENT NOS CLIENTS",
+
+  "check_project": "REGARDER NOS MEILLEURS PROJETS",
+  "view_more": "VOIR PLUS",
+
+  "service_title": "REGARDEZ NOS MEILLEURS SERVICES",
+  "panel1_title": "INGENIERIE",
+  "panel2_title": "IMMOBILIER",
+  "panel3_title": "ARCHITECTURE",
+  "panel4_title": "SUIVI ET CONTROLE",
+  "stats": "statistiques",
+  "partners": "Nos Partenaires",
+
+  "projet_title": "Nos Meilleures Réalisations",
+  "all_tag": "tous",
+  "interior_tag": "interieur",
+  "exterior_tag": "exterieur",
+  "house_tag": "maison",
+
+  "history": "VISION",
+  "architecture": "ARCHITECTURE",
+  "urbanisme": "URBANISME",
+  "engineering": "INGENIERIE",
+  "team": "EQUIPE",
+  "architect": "Architecte",
+  "urban": "Urbaniste",
+  "engineer": "Ingénieur",
+  "prize": "Prix et Récompenses",
+
+  "lets_connect": "Contact",
+  "adress_below": "Nous joindre avec les adresses ci-dessous",
+  "networks": "Nous suivre sur les réseaux",
+
+  "contact_us": "Écrivez-nous",
+  "name_input": "Nom/Prénoms",
+  "phone_input": "N° de Téléphone",
+  "send_btn": "Envoyer",
+  "success_alert": "Message envoyé avec succès",
+  "error_alert": "Veuillez remplir les champs correctement et réessayer",
+
+  "news_letter": "Souscrivez à notre newsletter pour recevoir les derniers projets.",
+  "unsubscribe": "Vous pouvez vous désabonner à tout moment.",
+  "mail": "Votre adresse email",
+  "subscribe_button": "S'abonner Maintenant",
+  "company": "Agence",
+  "address": "adresse",
+  "follow_us": "Nous suivre"
+}

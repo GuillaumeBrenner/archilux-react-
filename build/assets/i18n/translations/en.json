@@ -1,0 +1,72 @@
+{
+  "home": "HOME",
+  "services": "SERVICES",
+  "project": "PROJECT",
+  "about": "ABOUT",
+  "contactUs": "CONTACT US",
+
+  "hero_title1": "ARCHITECTS DEVELOPPERS",
+  "hero_title2": "We build",
+  "lux": "LUX",
+  "ury": "URY",
+  "about_us": "ABOUT US",
+  "our_projects": "OUR PROJECTS",
+
+  "more_than": "MORE THAN AN ARCHITECTURE AGENCY",
+  "who_we_are": "WHO WE ARE",
+  "philosophy": "OUR PHILOSOPHY",
+  "how_we_work": "HOW WE WORK",
+
+  "experience": "EXPERIENCE",
+  "years": "YEARS EXPERIENCE",
+  "finished": "FINISHED PROJECTS",
+  "clients": "HAPPY CLIENTS",
+
+  "feedback": "FeedBack",
+
+  "check_project": "CHECK OUT OUR BEST PROJECTS",
+  "view_more": "VIEW MORE",
+
+  "service_title": "LOOK OUR BEST SERVICES",
+  "panel1_title": "ENGINEERING",
+  "panel2_title": "REAL ESTATE",
+  "panel3_title": "ARCHITECTURE",
+  "panel4_title": "ATTEND & CONTROL",
+  "stats": "statistics",
+  "partners": "Our Partners",
+
+  "projet_title": "Our Best Achievements",
+  "all_tag": "all",
+  "interior_tag": "interior",
+  "exterior_tag": "exterior",
+  "house_tag": "house",
+
+  "history": "VISION",
+  "architecture": "ARCHITECTURE",
+  "urbanisme": "URBAN PLAN",
+  "engineering": "ENGINEERING",
+  "team": "TEAM",
+  "architect": "Architect",
+  "urban": "Urban planning",
+  "engineer": "Engineer",
+  "prize": "Prizes and Rewards",
+
+  "lets_connect": "Let's Connect",
+  "adress_below": "Contact us on the address below ",
+  "networks": "Follow us on the networks",
+
+  "contact_us": "Write to Us",
+  "name_input": "Name/Firstname",
+  "phone_input": "Phone number",
+  "send_btn": "Send",
+  "success_alert": "Message sent successfully",
+  "error_alert": "Please fill the inputs properly and retry",
+
+  "news_letter": "Subscribe to our newsletter to receive the latest projects.",
+  "unsubscribe": "You can unsubscribe at any time.",
+  "mail": "Your Email",
+  "subscribe_button": "Subscribe Now",
+  "company": "Company",
+  "address": "Address",
+  "follow_us": "Follow us"
+}
