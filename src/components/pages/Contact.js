@@ -169,7 +169,6 @@ export default function Contact() {
                   value={t("send_btn")}
                   className="btn-contact"
                   onClick={promise}
-                  disabled={data.name.length < 1}
                 />
               </form>
             </div>
