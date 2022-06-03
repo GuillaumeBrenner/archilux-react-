@@ -145,6 +145,7 @@ export default function Contact() {
                   <input
                     type="text"
                     name="phone"
+                    pattern="[0-9]{5,12}"
                     placeholder={t("phone_input")}
                     className="input"
                     onChange={(e) => handleChange(e)}

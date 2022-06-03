@@ -72,6 +72,7 @@ function Footer() {
                 placeholder={t("mail")}
                 onChange={(e) => handleChange(e)}
                 value={newsletter.email}
+                required
               />
               <Button buttonStyle="btn--outline" onClick={promise}>
                 {t("subscribe_button")}

@@ -57,7 +57,7 @@
 
   "contact_us": "Write to Us",
   "name_input": "Name/Firstname",
-  "phone_input": "Phone number",
+  "phone_input": "Phone number (eg : 90 00 00 00)",
   "send_btn": "Send",
   "success_alert": "Message sent successfully",
   "error_alert": "Please fill the inputs properly and retry",
