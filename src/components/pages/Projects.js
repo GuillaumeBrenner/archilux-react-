@@ -82,19 +82,19 @@ export default function Projects() {
           |
           <TagButton
             name={t("interior_tag")}
-            tagActive={tag === "interior" ? true : false}
+            tagActive={tag === "interieur" ? true : false}
             handlesetag={setTag}
           />{" "}
           |
           <TagButton
             name={t("exterior_tag")}
-            tagActive={tag === "exterior" ? true : false}
+            tagActive={tag === "exterieur" ? true : false}
             handlesetag={setTag}
           />{" "}
           |
           <TagButton
             name={t("house_tag")}
-            tagActive={tag === "house" ? true : false}
+            tagActive={tag === "maison" ? true : false}
             handlesetag={setTag}
           />
         </div>

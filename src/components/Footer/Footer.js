@@ -118,13 +118,15 @@ function Footer() {
               <h4>{t("address")}</h4>
               <ul>
                 <li>
-                  <i className="fas fa-map-marker-alt"></i> 21 BP 40 Lomé-TOGO
+                  <i className="fa fa-paper-plane"></i> 21 BP 40 Lomé-TOGO
                 </li>
                 <li>
-                  <i className="fas fa-map-marker-alt"></i> Angle rue 61 HDN, Blvd Haho
+                  <i className="fas fa-map-marker-alt"></i> Angle rue 61 HDN,
+                  Blvd Haho
                 </li>
                 <li>
-                  <i className="fas fa-phone-alt"></i> (+228) 91 85 12 80 / 99 51 32 40
+                  <i className="fas fa-phone-alt"></i> (+228) 91 85 12 80 / 99
+                  51 32 40
                 </li>
                 <li>
                   <i className="fas fa-envelope"></i> grouparchilux@gmail.com

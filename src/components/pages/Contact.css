@@ -54,7 +54,7 @@
 }
 
 .social-media {
-  padding: 2rem 0 0 0;
+  padding: 1.5rem 0 0 0;
 }
 
 .social-media p {
@@ -215,7 +215,7 @@ textarea.input {
   }
   .contact-info .title,
   .contact-form .title {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 

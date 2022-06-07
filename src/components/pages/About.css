@@ -23,6 +23,7 @@
 
 .quote {
   margin-bottom: 15px;
+  padding: 0% 9% 0% 9%;
 }
 .quote .guillemet {
   font-size: 150px;
@@ -33,8 +34,8 @@
 .quote-container {
   display: flex;
   text-align: center;
-  padding: 50px 90px;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .quotation p {
   font-size: 1.5em;
@@ -104,10 +105,6 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-.partners-container h1 {
-  font-size: 3rem;
 }
 
 @media all and (max-width: 760px) {
