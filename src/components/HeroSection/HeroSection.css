@@ -27,7 +27,6 @@
 .hero-container span {
   color: yellow;
   letter-spacing: 2px;
-  text-transform: uppercase;
   animation: showup 5s ease-out;
 }
 @keyframes showup {
@@ -87,7 +86,7 @@
 
 @media all and (max-width: 550px) {
   .hero-container > h1 {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: -100px;
   }
   .hero-container p {

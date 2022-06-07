@@ -44,7 +44,7 @@ export default function About() {
           ,,
         </h1>
         <div className="separator"></div>
-        <div className="about-container">
+        <div className="quote-container">
           <div className="quotation" data-aos="zoom-in">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.

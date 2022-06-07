@@ -4,7 +4,7 @@ import "./LangSelector.css";
 
 function LangSelector() {
   const { i18n } = useTranslation();
-  const [selectedLang, setSelectedLang] = useState("en");
+  const [selectedLang, setSelectedLang] = useState("fr");
 
   const changeLanguage = (event) => {
     setSelectedLang(event.target.value);
@@ -15,21 +15,21 @@ function LangSelector() {
       <select name="language-select">
         <option
           type="select"
-          value="en"
-          name="language"
-          defaultChecked={selectedLang === "en"}
-          className="en"
-        >
-          EN
-        </option>
-        <option
-          type="select"
           value="fr"
           name="language"
           defaultChecked={selectedLang === "fr"}
           className="fr"
         >
           FR
+        </option>
+        <option
+          type="select"
+          value="en"
+          name="language"
+          defaultChecked={selectedLang === "en"}
+          className="en"
+        >
+          EN
         </option>
       </select>
     </div>

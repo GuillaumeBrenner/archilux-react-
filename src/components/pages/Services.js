@@ -167,10 +167,18 @@ export default function Services() {
       {/* <div className="person"></div> */}
 
       <section className="skills-section">
-        <h1 class="section-title" data-aos="zoom-in">
-          {t("stats")}
-        </h1>
-        <div className="separator"></div>
+        <div className="services-top">
+          <h1 class="section-title" data-aos="zoom-in">
+            {t("stats")}
+          </h1>
+          <div className="separator"></div>
+          <p data-aos="zoom-in">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+            deleniti maiores pariatur assumenda quas magni et, doloribus quod
+            voluptate quasi molestiae magnam officiis dolorum, dolor provident
+            atque molestias voluptatum explicabo!
+          </p>
+        </div>
         <div class="skills-container bd-grid">
           <div>
             <div className="skills-data">

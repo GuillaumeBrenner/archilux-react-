@@ -8,7 +8,7 @@
 }
 
 .section-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 50px;
   text-transform: uppercase;
   text-align: center;
@@ -30,14 +30,19 @@
   margin-top: -40px;
   font-family: "Fuggles", cursive;
 }
+.quote-container {
+  display: flex;
+  text-align: center;
+  padding: 50px 90px;
+  overflow: hidden;
+}
 .quotation p {
   font-size: 1.5em;
   line-height: 1.2em;
   margin-bottom: 20px;
-  text-align: justify;
 }
 .quotation h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: "Fuggles", cursive;
 }
 .team {
@@ -101,6 +106,10 @@
   object-fit: cover;
 }
 
+.partners-container h1 {
+  font-size: 3rem;
+}
+
 @media all and (max-width: 760px) {
   /* ABOUT COMPONENT */
   .about-container {
@@ -125,5 +134,15 @@
 
   .quote {
     margin-top: -150px;
+  }
+
+  .partners-container h1 {
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .partners-container h1 {
+    font-size: 50px;
   }
 }

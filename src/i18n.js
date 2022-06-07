@@ -16,8 +16,8 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    lng: "en",
-    // lng: document.querySelector("html").lang,
+    // lng: "en",
+    lng: document.querySelector("html").lang,
     backend: {
       /* translation file path */
       loadPath: "/assets/i18n/{{ns}}/{{lng}}.json",

@@ -30,16 +30,17 @@
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-family: "Jost", sans-serif;
 }
 .navbar-logo span {
   color: yellow;
   background: #000;
   padding-left: 3px;
+  font-weight: 600;
 }
 
 .nav-menu {
@@ -50,7 +51,7 @@
   text-align: center;
   width: 50vw;
   justify-content: end;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .nav-item {
@@ -64,7 +65,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  font-size: 15px;
+  font-size: 14px;
 }
 .nav-links-active {
   border-bottom: 4px solid yellow;
@@ -89,16 +90,12 @@
 
 .language {
   position: relative;
-  left: 50px;
+  left: 40px;
 }
 
 @media all and (max-width: 1100px) {
   .NavbarItems {
     position: relative;
-  }
-  .navbar-logo {
-    font-size: 2rem;
-    letter-spacing: 3px;
   }
 
   .nav-menu {
@@ -128,8 +125,8 @@
 
   .nav-links {
     text-align: center;
-    font-size: 18px;
-    padding: 2rem;
+    font-size: 15px;
+    padding: 1.5rem;
     width: 100%;
     display: table;
   }
@@ -147,7 +144,7 @@
 
   .navbar-logo {
     position: absolute;
-    top: -5px;
+    top: -2px;
     left: 0;
     margin-left: -15px;
     transform: translate(25%, 50%);
@@ -191,11 +188,10 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
+    margin: 1rem auto;
     width: 70%;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;

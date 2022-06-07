@@ -13,8 +13,8 @@
 
 .home-slick h1 {
   text-align: center;
-  font-size: 50px;
-  font-family: 'Fuggles', cursive;
+  font-size: 40px;
+  font-family: "Fuggles", cursive;
 }
 
 .slick-text {
@@ -30,8 +30,7 @@
   }
 
   .home-slick h1 {
-    text-align: center;
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .slick-text p {
@@ -46,14 +45,15 @@
     padding: 2rem;
   }
 
-  .home-slick h1 {
-    text-align: center;
-    font-size: 50px;
-  }
-
   .slick-text p {
     padding: 3px;
     margin-left: 45px;
     margin-right: 45px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .home-slick h1 {
+    font-size: 25px;
   }
 }
