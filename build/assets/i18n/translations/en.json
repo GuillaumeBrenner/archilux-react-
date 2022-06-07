@@ -37,9 +37,9 @@
 
   "projet_title": "Our Best Achievements",
   "all_tag": "all",
-  "interior_tag": "interior",
-  "exterior_tag": "exterior",
-  "house_tag": "house",
+  "interior_tag": "interieur",
+  "exterior_tag": "exterieur",
+  "house_tag": "maison",
 
   "history": "VISION",
   "architecture": "ARCHITECTURE",
