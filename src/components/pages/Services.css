@@ -109,13 +109,6 @@
 .fa-4x {
   color: crimson;
 }
-.person {
-  height: 400px;
-  margin-bottom: 100px;
-  margin-right: 50px;
-  margin-left: 50px;
-  background: url("/images/interior.jpg") center center/cover;
-}
 
 .skills-container {
   text-align: center;
@@ -175,10 +168,21 @@
   padding: 3rem;
   margin-top: 55px;
 }
+.bg.prize {
+  background-image: url(/images/bg1.png);
+  width: 85%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+}
 .partners-container h1 {
   text-align: center;
   font-size: 80px;
-  font-family: 'Fuggles', cursive;
+  font-family: "Fuggles", cursive;
 }
 .partners-container .separator {
   margin-bottom: 50px;

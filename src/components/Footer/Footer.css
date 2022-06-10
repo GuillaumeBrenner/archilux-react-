@@ -13,7 +13,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
   margin-bottom: 24px;
   padding: 24px;
   color: #fff;
@@ -98,7 +97,7 @@
   padding: 70px 0px;
 }
 .contain {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: auto;
 }
 .row {
@@ -115,7 +114,7 @@
   font-family: "Jost", sans-serif;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 .app-name span {
   color: yellow;
@@ -202,12 +201,12 @@ ul {
   flex-direction: column;
   text-align: center;
   background-color: #24262b;
-  margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 .footer__copy {
-  font-size: 20px;
-  color: #bbbb;
+  font-size: 18px;
+  color: #aaa;
 }
 
 @media screen and (max-width: 820px) {

@@ -8,8 +8,8 @@ export default function Services() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -233,7 +233,8 @@ export default function Services() {
 
       <section className="partners-section">
         <div className="partners-container">
-          <h1 data-aos="fade-down">{t("partners")}</h1>
+          <div className="bg prize"></div>
+          <h1 data-aos="fade-down">{t("prize")}</h1>
           <div className="separator" data-aos="fade-up"></div>
           <div className="sponsor__container grid">
             <div className="partners__content">

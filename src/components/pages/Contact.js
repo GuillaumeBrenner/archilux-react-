@@ -66,8 +66,8 @@ export default function Contact() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -138,7 +138,7 @@ export default function Contact() {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder="Email*"
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.email}
@@ -161,7 +161,7 @@ export default function Contact() {
                     maxLength={300}
                     type="text"
                     name="message"
-                    placeholder="Message"
+                    placeholder="Message*"
                     className="input"
                     onChange={(e) => handleChange(e)}
                     value={data.message}

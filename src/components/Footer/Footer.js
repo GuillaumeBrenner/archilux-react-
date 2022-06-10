@@ -118,7 +118,7 @@ function Footer() {
               <h4>{t("address")}</h4>
               <ul>
                 <li>
-                  <i className="fa fa-paper-plane"></i> 21 BP 40 Lomé-TOGO
+                  <i className="fas fa-paper-plane"></i> 21 BP 40 Lomé-TOGO
                 </li>
                 <li>
                   <i className="fas fa-map-marker-alt"></i> Angle rue 61 HDN,
@@ -144,10 +144,11 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        <div className="footer_copyright">
-          <p className="footer__copy">2022 &#169; ArchiLUX</p>
-        </div>
+      </div>
+      <div className="footer_copyright">
+        <p className="footer__copy">
+          {new Date().getFullYear()} &#169; archilux.com
+        </p>
       </div>
 
       <ScrollToTop smooth color="red" top="500" data-aos="fade-left" />

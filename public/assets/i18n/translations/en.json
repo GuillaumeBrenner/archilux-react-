@@ -22,7 +22,8 @@
   "finished": "FINISHED PROJECTS",
   "clients": "HAPPY CLIENTS",
 
-  "feedback": "FeedBack",
+  "feedback": "Take a look at our reviews",
+  "intro": "We hear fantastic feedback from our customers, and we are grateful for all of them",
 
   "check_project": "CHECK OUT OUR BEST PROJECTS",
   "view_more": "VIEW MORE",
@@ -56,7 +57,7 @@
   "networks": "Follow us on the networks",
 
   "contact_us": "Write to Us",
-  "name_input": "Name/Firstname",
+  "name_input": "Name/Firstname*",
   "phone_input": "Phone number (eg : 90 00 00 00)",
   "send_btn": "Send",
   "success_alert": "Message sent successfully",

@@ -22,7 +22,8 @@
   "finished": "projets finis",
   "clients": "clients heureux",
 
-  "feedback": "CE QUE DISENT NOS CLIENTS",
+  "feedback": "Jetez un coup d’œil à nos avis",
+  "intro": "Nous entendons des commentaires fantastiques de nos clients, et nous leur en sommes reconnaissants",
 
   "check_project": "REGARDER NOS MEILLEURS PROJETS",
   "view_more": "VOIR PLUS",
@@ -56,7 +57,7 @@
   "networks": "Nous suivre sur les réseaux",
 
   "contact_us": "Écrivez-nous",
-  "name_input": "Nom/Prénoms",
+  "name_input": "Nom/Prénoms*",
   "phone_input": "N° de Téléphone (ex : 90 00 00 00)",
   "send_btn": "Envoyer",
   "success_alert": "Message envoyé avec succès",

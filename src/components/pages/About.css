@@ -7,6 +7,32 @@
   overflow: hidden;
 }
 
+.bg {
+  background-image: url(/images/bg1.png);
+  width: 55%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  z-index: -1;
+}
+
+.bg.partners {
+  background-image: url(/images/bg1.png);
+  width: 85%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -90px;
+  left: 150px;
+  z-index: 1;
+}
+
 .section-title {
   font-size: 2.5rem;
   margin-top: 50px;
@@ -35,6 +61,8 @@
   text-align: center;
   overflow: hidden;
   margin-bottom: 80px;
+  background-color: #f1f1f1;
+  padding: 50px 0;
 }
 .quotation p {
   font-size: 1.5em;

@@ -14,6 +14,7 @@ export default function About() {
   return (
     <>
       <section>
+        <div className="bg"></div>
         <h1 className="section-title" data-aos="fade-down">
           {t("history")}
         </h1>
@@ -129,7 +130,8 @@ export default function About() {
 
       <section className="partners-section">
         <div className="partners-container">
-          <h1 data-aos="fade-down">{t("prize")}</h1>
+          <div className="bg partners"></div>
+          <h1 data-aos="fade-down">{t("partners")}</h1>
           <div className="separator" data-aos="fade-up"></div>
           <div className="sponsor__container grid">
             <div className="partners__content">
