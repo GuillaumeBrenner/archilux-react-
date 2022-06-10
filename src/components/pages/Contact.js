@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../App.css";
 import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
@@ -64,6 +64,10 @@ export default function Contact() {
   };
 
   const { t } = useTranslation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>

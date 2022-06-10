@@ -51,6 +51,10 @@ export default function Projects() {
       : setFilteredImages(images.filter((image) => image.tag === tag));
   }, [tag]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const TagButton = ({ name, handlesetag, tagActive }) => {
     return (
       <button

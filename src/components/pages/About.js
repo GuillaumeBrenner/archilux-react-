@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../App.css";
 import "./About.css";
 import Footer from "../Footer/Footer";
@@ -6,6 +6,10 @@ import { useTranslation } from "react-i18next";
 
 export default function About() {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
