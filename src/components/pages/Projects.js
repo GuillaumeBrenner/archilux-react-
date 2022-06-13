@@ -52,8 +52,8 @@ export default function Projects() {
   }, [tag]);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   const TagButton = ({ name, handlesetag, tagActive }) => {
     return (
@@ -70,6 +70,18 @@ export default function Projects() {
 
   return (
     <>
+      <div className="project-header">
+        <img src="images/interior.jpg" alt="" />
+        <h1 data-aos="fade-right">{t("projet_hero")}</h1>
+        <p
+          data-aos="fade-left"
+          data-aos-easing="ease-in"
+        >
+          {t("projet_description")} <span>{t("lux")}</span>
+          {t("ury")}.
+        </p>
+      </div>
+
       <div className="tags" handlesetag={tag}>
         <div className="projects-top">
           <h1 className="section-title" data-aos="fade-down">
