@@ -172,7 +172,7 @@ export default function Services() {
 
       <section className="skills-section">
         <div className="services-top">
-          <h1 class="section-title" data-aos="zoom-in">
+          <h1 className="section-title" data-aos="zoom-in">
             {t("stats")}
           </h1>
           <div className="separator"></div>
@@ -183,7 +183,7 @@ export default function Services() {
             atque molestias voluptatum explicabo!
           </p>
         </div>
-        <div class="skills-container bd-grid">
+        <div className="skills-container bd-grid">
           <div>
             <div className="skills-data">
               <div className="skills-names">
