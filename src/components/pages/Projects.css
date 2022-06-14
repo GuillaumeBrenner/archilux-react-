@@ -75,7 +75,7 @@
 @media all and (max-width: 650px) {
   .project-header > h1 {
     font-size: 2.5em;
-    margin-top: -100px;
+    margin-top: -300px;
   }
   .project-header p {
     padding: 1rem 2rem 0 0;

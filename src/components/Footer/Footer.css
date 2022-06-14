@@ -240,8 +240,10 @@ ul {
   }
 
   .footer_copyright {
-    margin-top: 0px;
+    margin-top: -50px;
     text-align: start;
+  }
+  .footer__copy {
     margin-left: 30px;
   }
 }
