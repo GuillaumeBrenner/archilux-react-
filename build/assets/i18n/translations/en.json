@@ -1,7 +1,7 @@
 {
   "home": "HOME",
   "services": "SERVICES",
-  "project": "PROJECT",
+  "project": "PROJECTS",
   "about": "ABOUT",
   "contactUs": "CONTACT US",
 
@@ -36,6 +36,8 @@
   "stats": "statistics",
   "partners": "Our Partners",
 
+  "projet_hero": "OUR PROJECTS",
+  "projet_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!",
   "projet_title": "Our Best Achievements",
   "all_tag": "all",
   "interior_tag": "interieur",
