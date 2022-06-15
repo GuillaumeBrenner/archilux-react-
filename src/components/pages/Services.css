@@ -263,4 +263,10 @@
   .skills-data {
     width: 300px;
   }
+
+  .bg.prize {
+    background-image: url(/images/bg1.png);
+    width: 70%;
+    left: 10px;
+  }
 }

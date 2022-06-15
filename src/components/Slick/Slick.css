@@ -21,6 +21,7 @@
 }
 
 .feedback-intro {
+  font-size: 18px;
   text-align: center;
   margin: 15px;
 }
@@ -28,16 +29,17 @@
   z-index: 1;
 }
 .contain p {
-  padding: 5rem;
-  font-size: 20px;
-  text-align: justify;
-  align-items: center;
-  justify-content: center;
+  padding: 6rem;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5em;
+  align-self: flex-start;
+  text-align: left;
 }
 
 .home-slick h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   font-family: "Fuggles", cursive;
 }
 
@@ -53,14 +55,28 @@
     font-size: 12px;
   }
 
-  .home-slick h1 {
-    font-size: 35px;
+  .slick-container h1 {
+    font-size: 50px;
   }
 
   .slick-text p {
     padding: 3px;
     margin-left: 45px;
     margin-right: 45px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .home-slick h1 {
+    font-size: 35px;
+  }
+
+  .feedback-intro {
+    font-size: 12px;
+  }
+
+  .slick-text p {
+    font-size: 10px;
   }
 }
 
@@ -73,11 +89,5 @@
     padding: 3px;
     margin-left: 45px;
     margin-right: 45px;
-  }
-}
-
-@media all and (max-width: 550px) {
-  .home-slick h1 {
-    font-size: 25px;
   }
 }

@@ -86,6 +86,12 @@ img {
   .about-text p {
     font-size: 12px;
   }
+  .image-text {
+    font-size: 12px;
+    bottom: 1rem;
+    letter-spacing: 0px;
+    z-index: 11;
+  }
 }
 
 @media all and (max-width: 400px) {
