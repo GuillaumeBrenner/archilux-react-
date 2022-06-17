@@ -15,6 +15,7 @@ function HomeServices() {
         <div className="experience-container" data-aos="fade-up">
           <div className="experience-grid">
             <div className="experience-details">
+              <img src="images/experience.png" alt="" />
               <h2>
                 <VisibilitySensor partialVisibility>
                   {({ isVisible }) => (
@@ -28,6 +29,7 @@ function HomeServices() {
             </div>
 
             <div className="experience-details">
+              <img src="images/briefing.png" alt="" />
               <h2>
                 <VisibilitySensor partialVisibility>
                   {({ isVisible }) => (
@@ -41,6 +43,7 @@ function HomeServices() {
             </div>
 
             <div className="experience-details">
+              <img src="images/happy.png" alt="" />
               <h2>
                 <VisibilitySensor partialVisibility>
                   {({ isVisible }) => (
