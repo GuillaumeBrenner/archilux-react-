@@ -105,17 +105,16 @@
   border-bottom: 1px solid rgb(236, 0, 0);
 }
 .project-container {
-  padding: 2rem;
+  padding: 2rem 8rem;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5px;
 }
 
 .image-card {
-  padding: 5px;
-  margin: 10px;
-  padding: 1rem;
+  margin-bottom: 30px;
+  padding: 0.5rem;
 }
 
 .projects-image {
