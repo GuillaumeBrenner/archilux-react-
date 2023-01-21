@@ -30,16 +30,26 @@ export default function About() {
             <h2>
               {t("architecture")}-{t("urbanisme")}-{t("engineering")}
             </h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores, velit alias eius non illum beatae atque repellat
-              ratione qui veritatis repudiandae adipisci maiores. At inventore
-              necessitatibus deserunt exercitationem cumque earum omnis ipsum
-              rem accusantium quis, quas quia, accusamus provident suscipit
-              magni! Expedita sint ad dolore, commodi labore nihil velit earum
-              ducimus nulla quae nostrum fugit aut, deserunt reprehenderit
-              libero enim!
-            </p>
+            <h3>
+              <p>
+                Créé en 2009, Notre cabinet d'architecture offre une
+                connaissance de l'ingénierie et du marché immobilier, avec le
+                suivi du projet pour garantir la protection de votre
+                investissement. Nos architectes comptent parmi les plus
+                recherchés du pays, avec des antécédents divers et une expertise
+                dans tous les domaines de l'architecture.
+              </p>
+              <p>
+                Nous mettons cette expérience à votre service, en vous offrant
+                une gamme complète de services, de l'ingénierie au suivi en
+                passant par l'immobilier. Des esquisses aux bâtiments
+                écologiques, nous fournissons des solutions pour répondre à vos
+                besoins spécifiques. Nous ne sommes pas limités par un modèle
+                d'entreprise bureau par bureau, au contraire nous sommes en
+                mesure de vous rencontrer là où vous avez besoin de nous, au
+                Togo ou dans la sous-région.
+              </p>
+            </h3>
           </div>
         </div>
       </section>

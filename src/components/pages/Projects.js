@@ -73,12 +73,8 @@ export default function Projects() {
       <div className="project-header">
         <img src="images/interior.jpg" alt="" />
         <h1 data-aos="fade-right">{t("projet_hero")}</h1>
-        <p
-          data-aos="fade-left"
-          data-aos-easing="ease-in"
-        >
-          {t("projet_description")} <span>{t("lux")}</span>
-          {t("ury")}.
+        <p data-aos="fade-left" data-aos-easing="ease-in">
+          {t("projet_description")}
         </p>
       </div>
 
