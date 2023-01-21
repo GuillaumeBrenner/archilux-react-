@@ -21,12 +21,7 @@ export default function Services() {
                 {t("service_title")}
               </h1>
               <div className="separator"></div>
-              <p data-aos="zoom-in">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
-                deleniti maiores pariatur assumenda quas magni et, doloribus
-                quod voluptate quasi molestiae magnam officiis dolorum, dolor
-                provident atque molestias voluptatum explicabo!
-              </p>
+              <p data-aos="zoom-in">{t("service_description")}</p>
             </div>
 
             <div className="panel-cards">
