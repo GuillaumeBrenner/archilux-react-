@@ -2,13 +2,12 @@
 /**
  * ArchiLux — Contact form handler (PHP mail).
  *
- * ⚠️ CONFIG : remplace VOTRE-DOMAINE.tld par TON domaine LWS pour que l'envoi
- * passe (l'adresse "From" doit être sur ton domaine, sinon les mails partent
- * en spam ou sont refusés).
+ * L'adresse "From" doit être sur ton domaine (group-archilux.com), sinon les
+ * mails partent en spam ou sont refusés.
  */
 
 $TO_ADDRESS   = 'grouparchilux@gmail.com';
-$FROM_ADDRESS = 'no-reply@VOTRE-DOMAINE.tld';
+$FROM_ADDRESS = 'no-reply@group-archilux.com';
 
 header('Content-Type: application/json; charset=utf-8');
 

@@ -2,14 +2,13 @@
 /**
  * ArchiLux — Newsletter subscription handler (PHP mail).
  *
- * ⚠️ CONFIG : remplace VOTRE-DOMAINE.tld par TON domaine LWS.
  * Ce script se contente de notifier l'équipe de la nouvelle inscription.
  * Pour une vraie liste, enregistre plutôt l'email en base ou via un service
  * (Mailchimp, Brevo…).
  */
 
 $TO_ADDRESS   = 'grouparchilux@gmail.com';
-$FROM_ADDRESS = 'no-reply@VOTRE-DOMAINE.tld';
+$FROM_ADDRESS = 'no-reply@group-archilux.com';
 
 header('Content-Type: application/json; charset=utf-8');
 
