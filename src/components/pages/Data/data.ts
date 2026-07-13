@@ -1,0 +1,23 @@
+export type ProjectTag = "interieur" | "exterieur" | "maison";
+
+export interface Project {
+  id: string;
+  imageName: string;
+  projectName: string;
+  alt: string;
+  tag: ProjectTag;
+}
+
+const projects: Project[] = [
+  { id: "1", imageName: "interior.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "exterieur" },
+  { id: "2", imageName: "interior3.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "exterieur" },
+  { id: "3", imageName: "projet2.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "maison" },
+  { id: "4", imageName: "img4.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "maison" },
+  { id: "5", imageName: "exterior1.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "exterieur" },
+  { id: "6", imageName: "img6.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "interieur" },
+  { id: "7", imageName: "img7.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "maison" },
+  { id: "8", imageName: "exterior2.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "exterieur" },
+  { id: "9", imageName: "img9.jpg", projectName: "Nom du projet", alt: "Beautiful", tag: "interieur" },
+];
+
+export default projects;
