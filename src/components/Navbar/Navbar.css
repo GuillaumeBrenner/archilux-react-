@@ -1,5 +1,7 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: rgba(22, 24, 29, 0.92);
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
   height: 70px;
   display: flex;
   justify-content: center;
@@ -8,11 +10,13 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  transition: background 0.4s var(--ease), box-shadow 0.4s var(--ease);
 }
 .navbar.active {
-  background: linear-gradient(90deg, rgb(66, 29, 139) 0%, rgb(0, 75, 97) 100%);
-  box-shadow: 0 0 50px 0 rgb(0 0 0 / 50%);
-  transition: 0.5s ease;
+  background: rgba(22, 24, 29, 0.85);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-container {
@@ -36,7 +40,6 @@
 }
 .navbar-logo span {
   color: yellow;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   padding-left: 3px;
 }
 
@@ -65,11 +68,12 @@
   font-size: 15px;
 }
 .nav-links-active {
-  border-bottom: 4px solid yellow;
+  border-bottom: 3px solid var(--color-accent);
+  color: var(--color-accent);
 }
 
 .nav-links:hover {
-  color: yellow;
+  color: var(--color-accent);
   transition: all 0.3s ease-out;
 }
 
@@ -134,7 +138,7 @@
   }
   .nav-links-active {
     border-bottom: none;
-    color: yellow;
+    color: var(--color-accent);
   }
 
   .navbar-logo {

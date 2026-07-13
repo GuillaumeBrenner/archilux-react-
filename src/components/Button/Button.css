@@ -1,14 +1,18 @@
-:root {
-  --primary: #fff;
-  --outline: rgb(219, 219, 19);
-}
-
 .btn {
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: var(--radius-sm);
   outline: none;
   border: none;
   cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: transform 0.2s var(--ease), background-color 0.3s var(--ease),
+    color 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }
 
 .btn--primary {

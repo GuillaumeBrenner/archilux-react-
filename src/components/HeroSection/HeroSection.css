@@ -18,13 +18,15 @@
 
 .hero-container > h1 {
   color: #fff;
-  font-size: 100px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3rem, 9vw, 100px);
   margin-top: -300px;
   margin-left: 100px;
-  letter-spacing: 15px;
+  letter-spacing: 12px;
 }
 .hero-container span {
-  color: yellow;
+  color: var(--color-accent);
   letter-spacing: 2px;
   text-transform: uppercase;
   animation: showup 5s ease-out;
